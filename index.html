@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHICC STYLE — atasan &amp; dress wanita</title>
+<meta name="description" content="CHICC STYLE — atasan &amp; dress wanita everyday chic. Order lewat WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--cream:#EAE7DC;--cream2:#F7F4EC;--sand:#D8C3A5;--gray:#8E8D8A;--coral:#E98074;--terra:#E85A4F;
+    --ink:#3B332C;--ink-soft:#7a7168;--wa:#25d366;
+    --line:rgba(59,51,44,.14);--card:rgba(255,255,255,.62);
+    --serif:"Cormorant Garamond","Iowan Old Style",Georgia,serif;--sans:"Jost","Avenir Next","Segoe UI",system-ui,sans-serif;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
+  body{font-family:var(--sans);color:var(--ink);
+    background:radial-gradient(120% 40% at 50% -3%,#F8F4E9 0%,var(--cream) 42%,#E1D9C6 100%),var(--cream);
+    min-height:100dvh;position:relative;overflow-x:hidden;-webkit-font-smoothing:antialiased;padding-bottom:88px;}
+  .wrap{position:relative;z-index:2;max-width:820px;margin:0 auto;}
+
+  .hero{text-align:center;padding:44px 16px 16px;}
+  .mark{width:46px;height:46px;margin:0 auto 18px;position:relative;}
+  .mark svg{width:100%;height:100%;display:block;filter:drop-shadow(0 0 14px rgba(232,90,79,.35));}
+  .mark::after{content:"";position:absolute;left:50%;top:50%;width:210px;height:210px;transform:translate(-50%,-50%);
+    background:radial-gradient(circle,rgba(232,90,79,.16) 0%,transparent 62%);z-index:-1;animation:br 6s ease-in-out infinite;}
+  @keyframes br{0%,100%{opacity:.6;transform:translate(-50%,-50%) scale(1)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.1)}}
+  .eyebrow{font-size:.64rem;letter-spacing:.4em;text-transform:uppercase;color:var(--terra);margin-bottom:14px;padding-left:.4em;}
+  .wordmark{font-family:var(--serif);font-weight:300;letter-spacing:.14em;line-height:1;font-size:clamp(2.4rem,11vw,3.6rem);
+    padding-left:.14em;margin-bottom:12px;background:linear-gradient(180deg,var(--terra),#8a5346 65%,#5c3a31);
+    -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;}
+  .tagline{font-family:var(--sans);font-weight:300;letter-spacing:.32em;font-size:clamp(.72rem,2.6vw,.86rem);
+    text-transform:uppercase;margin-bottom:20px;color:var(--ink-soft);padding-left:.32em;}
+  .cta-row{display:flex;align-items:center;justify-content:center;gap:10px;}
+  .wa-cta{display:inline-flex;align-items:center;gap:9px;background:var(--wa);color:#04310f;font-weight:500;
+    padding:13px 22px;border-radius:100px;text-decoration:none;box-shadow:0 8px 24px rgba(37,211,102,.25);}
+  .wa-cta svg{width:19px;height:19px;}
+  .search{display:inline-flex;align-items:center;height:46px;width:46px;overflow:hidden;border:1px solid var(--line);
+    border-radius:100px;background:var(--card);transition:width .32s cubic-bezier(.2,.7,.2,1);}
+  .search.open{width:min(74vw,268px);border-color:var(--terra);}
+  .s-ico{flex:0 0 46px;width:46px;height:44px;background:none;border:none;color:var(--ink);cursor:pointer;display:grid;place-items:center;}
+  .s-ico svg{width:19px;height:19px;}
+  .s-in{flex:1;min-width:0;background:none;border:none;outline:none;color:var(--ink);font-family:var(--sans);font-size:.9rem;
+    opacity:0;transition:opacity .2s;padding-right:14px;}
+  .search.open .s-in{opacity:1;}
+  .s-in::placeholder{color:var(--gray);}
+  .s-results{display:none;max-width:520px;margin:14px auto 0;text-align:left;background:#fff;
+    border:1px solid var(--line);border-radius:10px;max-height:52vh;overflow-y:auto;box-shadow:0 12px 30px rgba(59,51,44,.1);}
+  .s-results.show{display:block;}
+  .srow{display:flex;gap:11px;padding:9px 11px;text-decoration:none;color:var(--ink);border-bottom:1px solid var(--line);cursor:pointer;}
+  .srow:last-child{border-bottom:none;}
+  .sthumb{flex:0 0 46px;width:46px;height:58px;border-radius:5px;overflow:hidden;position:relative;background:var(--cream2);display:grid;place-items:center;}
+  .sthumb span{color:var(--sand);font-family:var(--serif);font-size:1.1rem;}
+  .sinfo{flex:1;min-width:0;}
+  .sinfo b{font-family:var(--serif);font-weight:400;font-size:.98rem;display:block;line-height:1.2;}
+  .sinfo>span{font-size:.7rem;color:var(--gray);}
+  .sinfo .price{margin-top:2px;}.sinfo .price .now{font-size:.86rem;}
+  .s-empty{padding:16px;text-align:center;color:var(--gray);font-size:.85rem;}
+
+  .voucher-link{display:block;max-width:320px;margin:14px auto 0;text-align:center;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--terra);text-decoration:none;border:1px solid rgba(232,90,79,.4);border-radius:100px;padding:11px 18px;transition:.2s;}
+  .voucher-link:hover{background:rgba(232,90,79,.1);}
+  .social-row{display:flex;gap:10px;max-width:320px;margin:9px auto 0;}
+  .social-btn{flex:1;display:inline-flex;align-items:center;justify-content:center;gap:7px;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:100px;padding:9px 6px;transition:.2s;}
+  .social-btn svg{width:15px;height:15px;}
+  .social-btn:hover{border-color:var(--terra);color:var(--terra);}
+  .v-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;max-width:560px;margin:6px auto 0;padding:0 16px;}
+  .v-card{display:flex;flex-direction:column;align-items:flex-start;gap:9px;padding:16px;border-radius:12px;
+    background:linear-gradient(120deg,rgba(216,195,165,.35),rgba(216,195,165,.1));border:1px dashed rgba(232,90,79,.45);}
+  .v-info{display:flex;flex-direction:column;gap:2px;}
+  .v-k{font-size:.6rem;letter-spacing:.28em;text-transform:uppercase;color:var(--terra);}
+  .v-info b{font-family:var(--serif);font-weight:500;font-size:1.3rem;line-height:1;}
+  .v-info small{font-size:.72rem;color:var(--gray);font-variant-numeric:tabular-nums;}
+  .v-btn{flex:0 0 auto;background:var(--terra);color:#fff;border:none;font-family:var(--sans);font-weight:600;font-size:.82rem;
+    padding:10px 20px;border-radius:100px;cursor:pointer;}
+  .v-code{align-self:stretch;display:none;flex-direction:column;align-items:center;gap:1px;background:var(--ink);border:1px solid var(--terra);
+    border-radius:8px;padding:7px 16px;cursor:pointer;}
+  .v-card.reveal .v-code{display:flex;}
+  .v-card.reveal .v-btn{display:none;}
+  .v-code span{font-family:var(--sans);font-weight:600;letter-spacing:.18em;color:#F7E9D8;font-size:1rem;}
+  .v-code em{font-style:normal;font-size:.58rem;color:#c9bdb5;letter-spacing:.04em;}
+
+  .chipnav{position:sticky;top:0;z-index:40;display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;
+    padding:11px 16px;background:rgba(234,231,220,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+  .chipnav::-webkit-scrollbar{display:none;}
+  .chipnav a{flex:0 0 auto;font-size:.76rem;color:var(--ink-soft);text-decoration:none;padding:6px 13px;border:1px solid var(--line);border-radius:100px;transition:all .2s;white-space:nowrap;}
+  .chipnav a.active{color:#fff;background:var(--terra);border-color:var(--terra);font-weight:500;}
+
+  .cat{padding:14px 0 6px;scroll-margin-top:56px;}
+  .cat-head{display:flex;align-items:flex-end;justify-content:space-between;padding:0 16px;}
+  .cat-kicker{font-size:.62rem;letter-spacing:.36em;text-transform:uppercase;color:var(--terra);}
+  .cat-head h2{font-family:var(--serif);font-weight:400;font-size:1.5rem;line-height:1.1;margin-top:3px;}
+  .cat-sub{font-size:.76rem;color:var(--gray);margin-top:3px;}
+  .cat-nav{display:flex;gap:7px;}
+  .arw{width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:1.1rem;cursor:pointer;display:grid;place-items:center;transition:.2s;}
+  .arw:hover{background:rgba(232,90,79,.12);border-color:var(--terra);}
+  .swipehint{font-size:.68rem;color:var(--gray);letter-spacing:.12em;text-align:center;margin:8px 0 2px;opacity:.8;}
+  .carousel{position:relative;}
+  .carousel::after{content:"";position:absolute;top:0;right:0;bottom:14px;width:34px;pointer-events:none;background:linear-gradient(90deg,transparent,var(--cream));}
+  .scroller{display:flex;gap:11px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:10px 16px 14px;scrollbar-width:none;}
+  .scroller::-webkit-scrollbar{display:none;}
+
+  .card{flex:0 0 auto;width:clamp(150px,43vw,196px);scroll-snap-align:start;background:var(--card);border:1px solid var(--line);border-radius:7px;overflow:hidden;display:flex;flex-direction:column;}
+  .thumb{aspect-ratio:3/4;position:relative;background:var(--cream2);display:grid;place-items:center;cursor:pointer;}
+  .thumb .ph{font-family:var(--serif);color:rgba(59,51,44,.28);font-size:1.7rem;}
+  .badge{position:absolute;top:7px;left:7px;font-size:.58rem;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--terra);padding:3px 7px;border-radius:100px;font-weight:600;z-index:3;}
+  .fav{position:absolute;top:5px;right:5px;width:30px;height:30px;border-radius:50%;border:none;cursor:pointer;z-index:3;background:rgba(255,255,255,.7);backdrop-filter:blur(3px);color:var(--ink);display:grid;place-items:center;transition:transform .15s;}
+  .fav svg{width:16px;height:16px;}
+  .fav:hover{transform:scale(1.12);}
+  .fav.on{background:var(--wa);color:#04310f;}
+  .taphint{position:absolute;bottom:7px;left:7px;font-size:.6rem;color:var(--ink);background:rgba(255,255,255,.75);backdrop-filter:blur(2px);padding:3px 7px;border-radius:100px;}
+  .body{padding:10px 10px 12px;display:flex;flex-direction:column;gap:7px;flex:1;}
+  .body h3{font-family:var(--serif);font-weight:400;font-size:.98rem;line-height:1.2;}
+  .price{display:flex;flex-direction:column;align-items:flex-start;gap:3px;}
+  .price-row{display:flex;align-items:baseline;gap:6px;flex-wrap:wrap;}
+  .price .now{color:var(--terra);font-size:.96rem;font-weight:500;}
+  .price .was{color:var(--gray);font-size:.72rem;text-decoration:line-through;}
+  .price .disc{color:#a8402f;font-size:.66rem;font-weight:500;background:rgba(232,90,79,.14);padding:1px 5px;border-radius:4px;}
+  .swatches{display:flex;align-items:center;gap:5px;}
+  .swatch{width:17px;height:17px;border-radius:50%;border:1px solid rgba(59,51,44,.2);cursor:pointer;padding:0;transition:.2s;}
+  .swatch:hover{transform:scale(1.15);}.swatch.sel{box-shadow:0 0 0 2px var(--cream2),0 0 0 3.5px var(--terra);}
+  .more{height:17px;padding:0 6px;border-radius:100px;border:1px solid var(--line);background:transparent;color:var(--gray);font-family:var(--sans);font-size:.62rem;cursor:pointer;}
+  .order{margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:6px;background:transparent;border:1px solid var(--wa);color:#1a8f4c;font-family:var(--sans);font-size:.76rem;font-weight:500;padding:8px;border-radius:100px;text-decoration:none;transition:.2s;}
+  .order:hover{background:var(--wa);color:#04310f;}.order svg{width:13px;height:13px;}
+
+  /* shop by color */
+  .color-strip{display:flex;gap:9px;overflow-x:auto;scrollbar-width:none;padding:12px 16px 14px;}
+  .color-strip::-webkit-scrollbar{display:none;}
+  .cchip{flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;background:var(--card);border:1px solid var(--line);
+    border-radius:100px;padding:7px 14px 7px 8px;color:var(--ink);font-family:var(--sans);font-size:.8rem;cursor:pointer;transition:.2s;}
+  .cchip:hover{border-color:var(--terra);}
+  .cdot{width:18px;height:18px;border-radius:50%;border:1px solid rgba(59,51,44,.2);}
+
+  /* lookbook */
+  .mag{padding:16px 0 6px;}
+  .mag-view{display:flex;flex-direction:column;align-items:center;gap:12px;padding:10px 16px 6px;}
+  .mag-frame{position:relative;width:min(78vw,300px);aspect-ratio:4/5;border-radius:10px;overflow:hidden;cursor:pointer;
+    border:1px solid var(--line);background:linear-gradient(160deg,var(--sand),var(--cream2));}
+  .mag-ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:20px;}
+  .mag-ed{font-family:var(--serif);font-size:2rem;letter-spacing:.1em;color:var(--terra);}
+  .mag-ph small{font-size:.6rem;color:var(--ink-soft);word-break:break-all;}
+  .mag-tap{font-size:.66rem;color:var(--ink-soft);letter-spacing:.06em;margin-top:6px;}
+  .mag-frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:2;}
+  .mag-dots{display:flex;gap:7px;}
+  .mag-dots span{width:7px;height:7px;border-radius:50%;background:var(--line);transition:.2s;}
+  .mag-dots span.on{background:var(--terra);width:20px;border-radius:100px;}
+  .mag-dl{background:transparent;border:1px solid var(--terra);color:var(--terra);font-family:var(--sans);font-size:.82rem;font-weight:500;padding:10px 22px;border-radius:100px;text-decoration:none;transition:.2s;}
+  .mag-dl:hover{background:var(--terra);color:#fff;}
+
+  /* testimonials */
+  .treview{padding-top:10px;}
+  #reviews{padding-bottom:30px;}
+  .tcard{flex:0 0 auto;width:clamp(220px,72vw,280px);scroll-snap-align:start;background:var(--card);border:1px solid var(--line);border-radius:9px;padding:16px;display:flex;flex-direction:column;gap:9px;}
+  .tstars{color:var(--terra);letter-spacing:2px;font-size:.9rem;}.tstars .off{color:var(--line);}
+  .tcard p{font-family:var(--serif);font-size:1.05rem;line-height:1.4;color:var(--ink);}
+  .tname{font-size:.7rem;color:var(--gray);letter-spacing:.04em;}
+
+  .float{position:fixed;right:16px;bottom:16px;z-index:50;width:56px;height:56px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 8px 24px rgba(37,211,102,.4);text-decoration:none;}
+  .float svg{width:29px;height:29px;}
+  .totop{position:fixed;right:84px;bottom:16px;z-index:50;width:56px;height:56px;border-radius:50%;
+    border:1px solid rgba(232,90,79,.4);background:rgba(255,255,255,.8);backdrop-filter:blur(6px);color:var(--terra);
+    display:grid;place-items:center;cursor:pointer;box-shadow:0 8px 22px rgba(59,51,44,.18);
+    opacity:0;pointer-events:none;transform:translateY(8px);transition:opacity .25s,transform .25s;}
+  .totop.show{opacity:1;pointer-events:auto;transform:none;}
+  .totop svg{width:22px;height:22px;}
+  .cartbar{position:fixed;left:50%;transform:translateX(-50%);bottom:20px;z-index:55;display:none;align-items:center;gap:10px;}
+  .cartbar.show{display:flex;}
+  .cart-clear{width:46px;height:46px;border-radius:50%;border:1px solid rgba(200,60,50,.4);background:rgba(255,255,255,.85);backdrop-filter:blur(6px);color:#a8402f;display:grid;place-items:center;cursor:pointer;box-shadow:0 8px 22px rgba(59,51,44,.18);}
+  .cart-clear svg{width:20px;height:20px;}
+  .cart{display:inline-flex;align-items:center;gap:8px;background:var(--terra);color:#fff;font-weight:600;font-size:.85rem;padding:13px 20px;border-radius:100px;text-decoration:none;box-shadow:0 8px 22px rgba(59,51,44,.22);}
+  .cart svg{width:17px;height:17px;}
+  footer{text-align:center;font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gray);padding:40px 16px 16px;}
+
+  .overlay{position:fixed;inset:0;z-index:90;background:rgba(234,231,220,.94);backdrop-filter:blur(8px);display:none;flex-direction:column;}
+  .overlay.open{display:flex;}
+  .ov-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;max-width:820px;margin:0 auto;width:100%;}
+  .ov-top h3{font-family:var(--serif);font-weight:400;font-size:1.3rem;}
+  .ov-close{width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);font-size:1.1rem;cursor:pointer;}
+  .ov-grid{flex:1;overflow-y:auto;display:grid;grid-template-columns:repeat(2,1fr);gap:12px;padding:0 16px 24px;max-width:820px;margin:0 auto;width:100%;align-content:start;}
+  @media(min-width:560px){.ov-grid{grid-template-columns:repeat(3,1fr);}}
+  .rcard{background:var(--card);border:1px solid var(--line);border-radius:7px;overflow:hidden;display:flex;flex-direction:column;}
+  .rthumb{aspect-ratio:3/4;position:relative;background:var(--cream2);display:grid;place-items:center;cursor:pointer;}
+  .rthumb .ph{font-family:var(--serif);color:rgba(59,51,44,.28);font-size:1.5rem;}
+  .rcard h4{font-family:var(--serif);font-weight:400;font-size:.94rem;line-height:1.2;padding:9px 9px 0;}
+  .rcard .price{padding:5px 9px 0;}
+  .rorder{margin:8px 9px 10px;display:inline-flex;align-items:center;justify-content:center;gap:6px;background:transparent;border:1px solid var(--wa);color:#1a8f4c;font-size:.74rem;font-weight:500;padding:8px;border-radius:100px;text-decoration:none;}
+  .rorder:hover{background:var(--wa);color:#04310f;}
+
+  .modal{position:fixed;inset:0;z-index:100;background:rgba(234,231,220,.94);backdrop-filter:blur(8px);display:none;flex-direction:column;}
+  .modal.open{display:flex;}
+  .m-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;padding:18px 18px 10px;max-width:640px;margin:0 auto;width:100%;}
+  .m-name{font-family:var(--serif);font-size:1.25rem;line-height:1.2;}
+  .m-price{display:flex;align-items:baseline;gap:7px;margin-top:5px;flex-wrap:wrap;}
+  .m-close{flex:0 0 auto;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);font-size:1.1rem;cursor:pointer;}
+  .m-hint{text-align:center;font-size:.7rem;color:var(--gray);letter-spacing:.1em;padding:2px 0 6px;}
+  .mslides{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:6px 18px 14px;scrollbar-width:none;flex:1;align-items:center;max-width:640px;margin:0 auto;width:100%;}
+  .mslides::-webkit-scrollbar{display:none;}
+  .mslide{flex:0 0 auto;width:min(74vw,340px);scroll-snap-align:center;position:relative;border-radius:8px;overflow:hidden;aspect-ratio:3/4;background:var(--cream2);border:1px solid var(--line);}
+  .mslide .mph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:16px;}
+  .mph .mc{font-family:var(--serif);font-size:1.4rem;color:var(--terra);}
+  .mph small{font-size:.62rem;color:var(--gray);word-break:break-all;line-height:1.4;}
+  .mph .cam{font-size:1.6rem;opacity:.5;}
+  .m-bottom{max-width:640px;margin:0 auto;width:100%;padding:6px 18px 22px;display:flex;align-items:center;gap:12px;}
+  .m-colorlabel{flex:1;font-size:.8rem;color:var(--gray);}.m-colorlabel b{color:var(--ink);font-weight:500;}
+  .m-order{display:inline-flex;align-items:center;gap:8px;background:var(--wa);color:#04310f;font-size:.86rem;font-weight:500;padding:11px 20px;border-radius:100px;text-decoration:none;}
+  .m-order svg{width:16px;height:16px;}
+  .m-cart{flex:0 0 auto;width:46px;height:46px;border-radius:50%;border:1px solid var(--terra);background:transparent;color:var(--terra);display:grid;place-items:center;cursor:pointer;transition:.2s;}
+  .m-cart svg{width:20px;height:20px;}
+  .m-cart.incart{background:var(--wa);border-color:var(--wa);color:#04310f;}
+  .comodal{position:fixed;inset:0;z-index:110;background:rgba(234,231,220,.94);backdrop-filter:blur(8px);display:none;align-items:flex-end;justify-content:center;}
+  .comodal.open{display:flex;}
+  .co-panel{background:#fff;border:1px solid var(--line);border-radius:16px 16px 0 0;width:100%;max-width:520px;max-height:92dvh;overflow-y:auto;padding:18px 18px 26px;}
+  @media(min-width:560px){.comodal{align-items:center;}.co-panel{border-radius:16px;}}
+  .co-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;}
+  .co-top h3{font-family:var(--serif);font-weight:400;font-size:1.4rem;}
+  .co-close{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);font-size:1.1rem;cursor:pointer;}
+  .co-row{display:grid;grid-template-columns:1fr auto auto auto;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);}
+  .co-info b{font-family:var(--serif);font-weight:400;font-size:1rem;display:block;line-height:1.2;}
+  .co-info span{font-size:.72rem;color:var(--gray);}
+  .co-qty{display:flex;align-items:center;gap:7px;}
+  .co-qty button{width:26px;height:26px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer;font-size:1rem;line-height:1;}
+  .co-qty span{min-width:16px;text-align:center;font-size:.9rem;}
+  .co-line{font-size:.84rem;color:var(--terra);white-space:nowrap;}
+  .co-del{width:24px;height:24px;border:none;background:transparent;color:var(--gray);font-size:1.15rem;cursor:pointer;}
+  .co-voucher{display:flex;gap:8px;margin:12px 0 2px;}
+  .co-voucher input{flex:1;background:var(--cream2);border:1px solid var(--line);border-radius:100px;color:var(--ink);font-family:var(--sans);font-size:.82rem;padding:10px 14px;outline:none;text-transform:uppercase;}
+  .co-voucher input:focus{border-color:var(--terra);}
+  .co-voucher input:disabled{opacity:.7;}
+  .co-voucher button{flex:0 0 auto;background:transparent;border:1px solid var(--terra);color:var(--terra);font-family:var(--sans);font-weight:500;font-size:.8rem;padding:0 18px;border-radius:100px;cursor:pointer;}
+  .co-vmsg{font-size:.74rem;min-height:1em;margin:3px 2px 0;}
+  .co-vmsg.ok{color:#1a8f4c;}.co-vmsg.err{color:#c0392b;}
+  .co-sum{display:flex;flex-direction:column;gap:6px;padding:10px 2px 4px;}
+  .co-line2{display:flex;justify-content:space-between;align-items:baseline;}
+  .co-line2 span{font-size:.85rem;color:var(--gray);}
+  .co-disc span{color:#1a8f4c;}
+  .co-total{padding-top:8px;margin-top:2px;border-top:1px solid var(--line);}
+  .co-total span{color:var(--ink);font-size:1rem;}
+  .co-sum b{font-family:var(--serif);font-size:1.5rem;color:var(--terra);}
+  .co-qris{background:var(--cream2);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;align-items:center;gap:12px;margin-bottom:14px;}
+  .qris-box{position:relative;width:196px;height:196px;border-radius:10px;overflow:hidden;background:#fff;display:grid;place-items:center;border:1px solid var(--line);}
+  .qris-ph{display:flex;flex-direction:column;align-items:center;gap:6px;text-align:center;padding:12px;}
+  .qris-ph .qc{font-family:var(--serif);font-size:1.5rem;color:#333;letter-spacing:.14em;}
+  .qris-ph small{font-size:.6rem;color:#999;word-break:break-all;}
+  .qris-note{font-size:.8rem;color:var(--gray);text-align:center;line-height:1.5;}.qris-note b{color:var(--terra);}
+  .co-copy{background:transparent;border:1px solid var(--terra);color:var(--terra);font-family:var(--sans);font-size:.78rem;font-weight:500;padding:8px 18px;border-radius:100px;cursor:pointer;}
+  .co-wa{display:flex;align-items:center;justify-content:center;gap:9px;background:var(--wa);color:#04310f;font-weight:600;font-size:.92rem;padding:14px;border-radius:100px;text-decoration:none;}
+  .co-wa svg{width:18px;height:18px;}
+  .co-fine{font-size:.68rem;color:var(--gray);text-align:center;margin-top:10px;line-height:1.5;}
+  :focus-visible{outline:2px solid var(--terra);outline-offset:2px;}
+  @media(max-width:520px){.cat-head h2{font-size:1.35rem;}}
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;}html{scroll-behavior:auto;}}
+</style></head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="mark" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="#E85A4F" stroke-width="2.5"/><circle cx="50" cy="8" r="3.2" fill="#E85A4F"/></svg></div>
+    <p class="eyebrow">Atasan &amp; dress wanita · everyday chic</p>
+    <h1 class="wordmark">CHICC STYLE</h1>
+    <p class="tagline">Wear your everyday confidence</p>
+    <div class="cta-row">
+      <a class="wa-cta" id="mainWa" href="#"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3z"/></svg>Chat CS</a>
+      <div class="search" id="search"><button class="s-ico" id="sToggle" aria-label="Cari"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button><input class="s-in" id="sInput" placeholder="Cari favoritmu.." aria-label="Cari produk"></div>
+    </div>
+    <a class="voucher-link" href="#vouchers">🎫 Tap untuk ambil voucher kamu</a>
+    <div class="social-row">
+      <a class="social-btn" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1 12a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L6 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>Shopee</a>
+      <a class="social-btn" href="#" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19a4 4 0 1 0 4-4V3"/><path d="M13 7a5 5 0 0 0 5 5"/></svg>TikTok</a>
+    </div>
+    <div class="s-results" id="sResults"></div>
+  </header>
+
+  <section class="cat" id="reviews">
+    <div class="cat-head"><div><span class="cat-kicker">Ulasan</span><h2>Kata mereka</h2><p class="cat-sub">Contoh — ganti dengan review asli pelangganmu</p></div></div>
+    <div class="carousel"><div class="scroller treview" id="reviewsScroller"></div></div>
+  </section>
+
+  <nav class="chipnav" id="chipnav"></nav>
+
+  <section class="cat" id="cat0">
+    <div class="cat-head"><div><h2>Best Seller</h2></div>
+      <div class="cat-nav"><button class="arw" data-dir="-1" aria-label="Sebelumnya">&#8249;</button><button class="arw" data-dir="1" aria-label="Berikutnya">&#8250;</button></div></div>
+    <p class="swipehint">&#8592; geser untuk lihat semua &#8594;</p>
+    <div class="carousel"><div class="scroller" data-cat="cat0"></div></div>
+  </section>
+
+  <section class="cat" id="cat1">
+    <div class="cat-head"><div><h2>Dress &amp; One Piece</h2></div>
+      <div class="cat-nav"><button class="arw" data-dir="-1" aria-label="Sebelumnya">&#8249;</button><button class="arw" data-dir="1" aria-label="Berikutnya">&#8250;</button></div></div>
+    <p class="swipehint">&#8592; geser untuk lihat semua &#8594;</p>
+    <div class="carousel"><div class="scroller" data-cat="cat1"></div></div>
+  </section>
+
+  <section class="cat" id="cat2">
+    <div class="cat-head"><div><h2>Cardigan &amp; Outer</h2></div>
+      <div class="cat-nav"><button class="arw" data-dir="-1" aria-label="Sebelumnya">&#8249;</button><button class="arw" data-dir="1" aria-label="Berikutnya">&#8250;</button></div></div>
+    <p class="swipehint">&#8592; geser untuk lihat semua &#8594;</p>
+    <div class="carousel"><div class="scroller" data-cat="cat2"></div></div>
+  </section>
+
+  <section class="cat" id="cat3">
+    <div class="cat-head"><div><h2>New Arrivals</h2></div>
+      <div class="cat-nav"><button class="arw" data-dir="-1" aria-label="Sebelumnya">&#8249;</button><button class="arw" data-dir="1" aria-label="Berikutnya">&#8250;</button></div></div>
+    <p class="swipehint">&#8592; geser untuk lihat semua &#8594;</p>
+    <div class="carousel"><div class="scroller" data-cat="cat3"></div></div>
+  </section>
+
+  <section class="cat" id="shopcolor">
+    <div class="cat-head"><div><span class="cat-kicker">Belanja</span><h2>Shop by Color</h2><p class="cat-sub">Tap warna favoritmu</p></div></div>
+    <div class="carousel"><div class="color-strip" id="colorStrip"></div></div>
+  </section>
+
+  <section class="mag" id="mag">
+    <div class="cat-head"><div><span class="cat-kicker">Editorial</span><h2>Lookbook</h2><p class="cat-sub">3 edisi — ketuk cover untuk lanjut</p></div></div>
+    <div class="mag-view">
+      <div class="mag-frame" id="magFrame">
+        <div class="mag-ph"><span class="mag-ed">EDISI <b id="magNo">1</b></span><small id="magFile">images/lookbook/edisi-1.jpg</small><span class="mag-tap">ketuk untuk cover berikutnya →</span></div>
+        <img id="magImg" alt="">
+      </div>
+      <div class="mag-dots" id="magDots"></div>
+      <a class="mag-dl" id="magDl" href="lookbook/edisi-1.pdf" download>Download Edisi 1</a>
+    </div>
+  </section>
+
+  <section class="cat" id="vouchers">
+    <div class="cat-head"><div><span class="cat-kicker">Promo</span><h2>Voucher kamu</h2><p class="cat-sub" id="vTimer">Berlaku —</p></div></div>
+    <div class="v-grid" id="voucherGrid"></div>
+  </section>
+
+  <footer>Chicc Style · Indonesia · 2026</footer>
+</div>
+
+<div class="cartbar" id="cartbar">
+  <button class="cart-clear" id="cartClear" aria-label="Kosongkan keranjang"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M9 7V5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2m3 0v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7"/><path d="M10 11v6M14 11v6"/></svg></button>
+  <a class="cart" id="cart" href="#">Pesan (<span id="cartN">0</span>) item</a>
+</div>
+<button class="totop" id="toTop" aria-label="Kembali ke atas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+<a class="float" id="floatWa" href="#" aria-label="Chat WhatsApp"><svg viewBox="0 0 32 32" fill="#04310f"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-4.9 1 1-4.8-.3-.4C5.4 18.9 5 17 5 15c0-6 4.9-11 11-11s11 5 11 11-4.9 10.8-11 10.8zm6-8c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2s-.8 1-1 1.2c-.2.2-.4.2-.7 0-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.2-.7l.5-.6c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.6l-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.8 5.1.8.3 1.5.6 2 .7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg></a>
+
+<div class="overlay" id="colorOv"><div class="ov-top"><h3 id="ovTitle"></h3><button class="ov-close" id="ovClose" aria-label="Tutup">&times;</button></div><div class="ov-grid" id="ovGrid"></div></div>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="m-top"><div><div class="m-name" id="mName"></div><div class="m-price" id="mPrice"></div></div><button class="m-close" id="mClose" aria-label="Tutup">&times;</button></div>
+  <p class="m-hint">← geser untuk lihat setiap warna →</p>
+  <div class="mslides" id="mSlides"></div>
+  <div class="m-bottom"><span class="m-colorlabel">Warna: <b id="mColor">-</b></span><button class="m-cart" id="mCart" aria-label="Tambah ke keranjang"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="20" r="1.3"/><circle cx="17" cy="20" r="1.3"/><path d="M3 4h2l2.3 10.4a1 1 0 0 0 1 .8h8.2a1 1 0 0 0 1-.8L20 8H6"/></svg></button><a class="m-order" id="mOrder" href="#"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3z"/></svg>Order warna ini</a></div>
+</div>
+
+<div class="comodal" id="checkout" aria-hidden="true">
+  <div class="co-panel">
+    <div class="co-top"><h3>Checkout</h3><button class="co-close" id="coClose" aria-label="Tutup">&times;</button></div>
+    <div class="co-list" id="coItems"></div>
+    <div class="co-voucher"><input id="coVin" placeholder="Kode voucher" autocomplete="off"><button id="coVapply">Pakai</button></div>
+    <p class="co-vmsg" id="coVmsg"></p>
+    <div class="co-sum">
+      <div class="co-line2" id="coSubRow" hidden><span>Subtotal</span><span id="coSub">Rp 0</span></div>
+      <div class="co-line2 co-disc" id="coDiscRow" hidden><span id="coDiscLbl">Diskon</span><span id="coDiscVal">-Rp 0</span></div>
+      <div class="co-line2 co-total"><span>Total</span><b id="coTotal">Rp 0</b></div>
+    </div>
+    <div class="co-qris">
+      <div class="qris-box"><div class="qris-ph"><span class="qc">QRIS</span><small>images/qris.png</small></div><img src="images/qris.png" alt="QRIS Chicc Style" onerror="this.remove()"></div>
+      <p class="qris-note">Scan QRIS, masukkan nominal <b id="coAmt">Rp 0</b>, lalu kirim bukti bayar ke WhatsApp.</p>
+      <button class="co-copy" id="coCopy">Salin nominal</button>
+    </div>
+    <a class="co-wa" id="coWa" href="#"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3z"/></svg>Konfirmasi via WhatsApp</a>
+    <p class="co-fine">Pembayaran manual (QRIS statis). Setelah transfer, kirim bukti ke WhatsApp untuk konfirmasi pesanan.</p>
+  </div>
+</div>
+
+<script>
+  /* ============ KONFIGURASI DASAR — edit di sini ============ */
+  const WA_NUMBER="628123456789"; // TODO: ganti dengan nomor WhatsApp CS asli (format 62xxxxxxxxxx)
+  const BRAND="Chicc Style";
+  const GREETING="Halo Chicc Style! \ud83d\ude0a Saya mau tanya-tanya dulu.";
+
+  /* ============ DATA PRODUK DUMMY — gampang diedit / tambah ============
+     cat: cat0 = Best Seller, cat1 = Dress & One Piece, cat2 = Cardigan & Outer, cat3 = New Arrivals
+     cl : [ [Nama warna, kode-keluarga-warna, hex] , ... ]  -> keluarga warna dipakai di "Shop by Color"
+     Ganti .thumb di CSS / tambahkan <img> di renderCard() begitu foto produk sudah ada. */
+  const PRODUCTS=[
+    {k:"CS001",n:"Nadia Square Neck Top",c:"BS01",cat:"cat0",hot:true,np:69000,was:120000,
+      cl:[["Krem","krem","#EFE6D8"],["Terracotta","terracotta","#E07856"],["Sage","sage","#9CAF88"],["Hitam","hitam","#232323"]]},
+    {k:"CS002",n:"Lira Puff Sleeve Blouse",c:"BS02",cat:"cat0",hot:true,np:79000,was:135000,
+      cl:[["Dusty Rose","dusty","#D8A6A0"],["Krem","krem","#EFE6D8"],["Mocha","mocha","#8B6F5C"]]},
+    {k:"CS003",n:"Vania Tie Waist Top",c:"BS03",cat:"cat0",hot:false,np:72000,was:118000,
+      cl:[["Putih","putih","#F7F4EE"],["Hitam","hitam","#232323"],["Terracotta","terracotta","#E07856"],["Khaki","khaki","#B7A77A"]]},
+    {k:"CS004",n:"Elma Ruffle Cropped Top",c:"BS04",cat:"cat0",hot:false,np:65000,was:99000,
+      cl:[["Salem","salem","#EFA98B"],["Sage","sage","#9CAF88"],["Krem","krem","#EFE6D8"]]},
+    {k:"CS005",n:"Talia Midi Wrap Dress",c:"DR01",cat:"cat1",hot:true,np:135000,was:220000,
+      cl:[["Terracotta","terracotta","#E07856"],["Mocha","mocha","#8B6F5C"],["Hitam","hitam","#232323"]]},
+    {k:"CS006",n:"Rosa Button Shirt Dress",c:"DR02",cat:"cat1",hot:false,np:129000,was:199000,
+      cl:[["Krem","krem","#EFE6D8"],["Sage","sage","#9CAF88"],["Dusty Rose","dusty","#D8A6A0"]]},
+    {k:"CS007",n:"Nira Sleeveless A-Line Dress",c:"DR03",cat:"cat1",hot:false,np:99000,was:160000,
+      cl:[["Putih","putih","#F7F4EE"],["Terracotta","terracotta","#E07856"],["Navy","navy","#33475B"]]},
+    {k:"CS008",n:"Zahra Ruched Mini Dress",c:"DR04",cat:"cat1",hot:false,np:110000,was:175000,
+      cl:[["Hitam","hitam","#232323"],["Salem","salem","#EFA98B"],["Mocha","mocha","#8B6F5C"]]},
+    {k:"CS009",n:"Divena Knit Cardigan",c:"CO01",cat:"cat2",hot:true,np:98000,was:160000,
+      cl:[["Krem","krem","#EFE6D8"],["Mocha","mocha","#8B6F5C"],["Sage","sage","#9CAF88"],["Hitam","hitam","#232323"]]},
+    {k:"CS010",n:"Kanza Oversized Blazer",c:"CO02",cat:"cat2",hot:false,np:145000,was:230000,
+      cl:[["Khaki","khaki","#B7A77A"],["Hitam","hitam","#232323"],["Putih","putih","#F7F4EE"]]},
+    {k:"CS011",n:"Alika Button Knit Vest",c:"CO03",cat:"cat2",hot:false,np:85000,was:135000,
+      cl:[["Terracotta","terracotta","#E07856"],["Krem","krem","#EFE6D8"],["Dusty Rose","dusty","#D8A6A0"]]},
+    {k:"CS012",n:"Sable Longline Cardigan",c:"CO04",cat:"cat2",hot:false,np:105000,was:170000,
+      cl:[["Mocha","mocha","#8B6F5C"],["Sage","sage","#9CAF88"],["Hitam","hitam","#232323"]]},
+    {k:"CS013",n:"Ophelia Collar Blouse",c:"NA01",cat:"cat3",hot:false,np:75000,was:125000,
+      cl:[["Putih","putih","#F7F4EE"],["Terracotta","terracotta","#E07856"],["Navy","navy","#33475B"]]},
+    {k:"CS014",n:"Maren Wide Leg Jumpsuit",c:"NA02",cat:"cat3",hot:false,np:139000,was:210000,
+      cl:[["Khaki","khaki","#B7A77A"],["Hitam","hitam","#232323"],["Mocha","mocha","#8B6F5C"]]},
+    {k:"CS015",n:"Iris Batwing Knit Top",c:"NA03",cat:"cat3",hot:false,np:68000,was:110000,
+      cl:[["Sage","sage","#9CAF88"],["Krem","krem","#EFE6D8"],["Dusty Rose","dusty","#D8A6A0"]]},
+    {k:"CS016",n:"Freya Pleated Skirt",c:"NA04",cat:"cat3",hot:false,np:89000,was:140000,
+      cl:[["Terracotta","terracotta","#E07856"],["Hitam","hitam","#232323"],["Krem","krem","#EFE6D8"]]}
+  ];
+  const KODE2P={};PRODUCTS.forEach(p=>KODE2P[p.k]=p);
+  const CATLABEL={cat0:"Best Seller",cat1:"Dress & One Piece",cat2:"Cardigan & Outer",cat3:"New Arrivals"};
+
+  const FAMILIES=[["krem","Krem","#EFE6D8"],["terracotta","Terracotta","#E07856"],["sage","Sage","#9CAF88"],
+    ["mocha","Mocha","#8B6F5C"],["dusty","Dusty Rose","#D8A6A0"],["hitam","Hitam","#232323"],
+    ["putih","Putih","#F7F4EE"],["khaki","Khaki","#B7A77A"],["salem","Salem","#EFA98B"],["navy","Navy","#33475B"]];
+
+  const VOUCHERS=[
+    {code:"CHICC10",label:"Diskon Rp 10.000",note:"Min. belanja Rp 100rb",kind:"amount",amount:10000,min:100000},
+    {code:"CHICC25",label:"Diskon Rp 25.000",note:"Min. belanja Rp 200rb",kind:"amount",amount:25000,min:200000},
+    {code:"CHICC50",label:"Diskon Rp 45.000",note:"Min. belanja Rp 400rb",kind:"amount",amount:45000,min:400000},
+    {code:"ONGKIRGRATIS",label:"Gratis Ongkir",note:"Jabodetabek · min. 3 item",kind:"ongkir",amount:0,min:3}
+  ];
+
+  const REVIEWS=[
+    {stars:5,text:"Bahannya nyaman dipakai seharian, jahitannya rapi banget.",name:"Ayu S. · Pembeli terverifikasi"},
+    {stars:5,text:"Warnanya persis kayak difoto, suka banget sama modelnya!",name:"Nadia P. · Pembeli terverifikasi"},
+    {stars:5,text:"Pengiriman cepat, kualitas oke banget buat harganya.",name:"Rani K. · Pembeli terverifikasi"},
+    {stars:4,text:"Model pas di badan, bakal repeat order warna lain.",name:"Sinta M. · Pembeli terverifikasi"},
+    {stars:5,text:"CS ramah dan fast respon, barang sesuai deskripsi.",name:"Putri A. · Pembeli terverifikasi"}
+  ];
+
+  /* ============ helper umum ============ */
+  const esc=s=>String(s).replace(/"/g,"&quot;");
+  const fmtRp=(n)=>"Rp "+Number(n||0).toLocaleString("id-ID");
+  const link=(t)=>`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(t)}`;
+  const track=()=>{};
+  function priceHTML(p){const disc=Math.round((p.was-p.np)/p.was*100);
+    let r=`<span class="now">${fmtRp(p.np)}</span>`;if(p.was)r+=`<span class="was">${fmtRp(p.was)}</span>`;
+    let h=`<div class="price-row">${r}</div>`;if(disc>0)h+=`<span class="disc">-${disc}%</span>`;return `<div class="price">${h}</div>`;}
+  function orderText(name,code,color){let t=`Halo ${BRAND}! \ud83d\ude0a Saya mau order:\n*${name}*`;
+    if(color)t+=`\nWarna: ${color}`;t+=`\nUkuran: (S / M / L / XL)`;if(code)t+=`\n(kode: ${code})`;t+=`\nMasih ready kak?`;return t;}
+
+  /* wishlist (in-memory selama sesi ini) */
+  const ck=(k,c)=>k+"||"+(c||"");
+  const wish=new Map();
+
+  /* ============ RENDER: kartu produk ============ */
+  const heartSvg=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="20" r="1.3"/><circle cx="17" cy="20" r="1.3"/><path d="M3 4h2l2.3 10.4a1 1 0 0 0 1 .8h8.2a1 1 0 0 0 1-.8L20 8H6"/></svg>`;
+  const waSvg=`<svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3z"/></svg>`;
+
+  function swatchesHTML(p){const shown=p.cl.slice(0,5);
+    let h=shown.map(c=>`<button class="swatch" style="background:${c[2]}" data-color="${esc(c[0])}" title="${esc(c[0])}" aria-label="${esc(c[0])}"></button>`).join("");
+    if(p.cl.length>5)h+=`<button class="more" aria-label="Semua warna">+${p.cl.length-5}</button>`;
+    return `<div class="swatches">${h}</div>`;}
+
+  function cardHTML(p){const first=p.cl[0];
+    return `<article class="card" data-kode="${p.k}">
+      <div class="thumb" data-act="photo" style="background:linear-gradient(155deg,${first[2]}3d,var(--cream2))">
+        <span class="ph">&#10022;</span>${p.hot?'<span class="badge">&#9733; Terlaris</span>':""}
+        <button class="fav" aria-label="Tambah ke keranjang">${heartSvg}</button>
+        <span class="taphint">&#9906; ketuk untuk lihat warna</span></div>
+      <div class="body"><h3>${p.n} | ${p.c}</h3>${priceHTML(p)}${swatchesHTML(p)}
+        <a class="order" href="#" data-color="${esc(first[0])}">${waSvg}<span>Order</span></a></div>
+    </article>`;}
+
+  function gridCardHTML(p,preColor){const c=preColor?p.cl.find(x=>x[0]===preColor)||p.cl[0]:p.cl[0];
+    return `<article class="rcard" data-kode="${p.k}"><div class="rthumb" data-act="photo" style="background:linear-gradient(155deg,${c[2]}3d,var(--cream2))"><span class="ph">&#10022;</span></div>
+      <h4>${p.n} | ${p.c}</h4>${priceHTML(p)}
+      <a class="rorder" data-act="order" href="${link(orderText(p.n,p.c,c[0]))}">Order &middot; ${esc(c[0])}</a></article>`;}
+
+  function rowHTML(p){return `<a class="srow" data-kode="${p.k}"><div class="sthumb"><span>&#10022;</span></div><div class="sinfo"><b>${p.n}</b><span>${p.c}</span>${priceHTML(p)}</div></a>`;}
+
+  /* render kartu ke masing-masing kategori */
+  document.querySelectorAll(".scroller[data-cat]").forEach(sc=>{
+    const cat=sc.dataset.cat;sc.innerHTML=PRODUCTS.filter(p=>p.cat===cat).map(cardHTML).join("");
+  });
+
+  /* chipnav dibuat otomatis dari kategori yang ada */
+  const chipnav=document.getElementById("chipnav");
+  chipnav.innerHTML=Object.keys(CATLABEL).map(id=>`<a href="#${id}">${CATLABEL[id]}</a>`).join("");
+
+  /* voucher grid */
+  document.getElementById("voucherGrid").innerHTML=VOUCHERS.map(v=>`<div class="v-card">
+      <div class="v-info"><span class="v-k">Voucher</span><b>${esc(v.label)}</b><small>${esc(v.note)}</small></div>
+      <button class="v-btn v-claim">Klaim</button>
+      <button class="v-code" data-code="${v.code}"><span>${v.code}</span><em>ketuk untuk salin</em></button>
+    </div>`).join("");
+
+  /* testimoni */
+  document.getElementById("reviewsScroller").innerHTML=REVIEWS.map(r=>{
+    const full="&#9733;".repeat(r.stars),off="&#9733;".repeat(5-r.stars);
+    return `<div class="tcard"><div class="tstars">${full}<span class="off">${off}</span></div><p>&#8220;${esc(r.text)}&#8221;</p><span class="tname">${esc(r.name)}</span></div>`;
+  }).join("");
+
+  /* shop by color chips */
+  document.getElementById("colorStrip").innerHTML=FAMILIES.map(f=>`<button class="cchip" data-fam="${f[0]}"><span class="cdot" style="background:${f[2]}"></span>${f[1]}</button>`).join("");
+
+  /* ============ interaksi kartu (favorit, swatch, order link, tap foto) ============ */
+  function wireCards(){
+    document.querySelectorAll(".card").forEach(card=>{
+      if(card.dataset.wired)return;card.dataset.wired="1";
+      const kode=card.dataset.kode,p=KODE2P[kode];
+      const order=card.querySelector(".order"),swatches=card.querySelectorAll(".swatch"),fav=card.querySelector(".fav");
+      const apply=(color)=>{order.dataset.color=color||"";order.href=link(orderText(p.n,p.c,color));
+        if(fav)fav.classList.toggle("on",wish.has(ck(kode,color||"")));};
+      apply(order.dataset.color);if(swatches.length)swatches[0].classList.add("sel");
+      swatches.forEach(sw=>sw.addEventListener("click",e=>{e.stopPropagation();swatches.forEach(s=>s.classList.remove("sel"));sw.classList.add("sel");apply(sw.dataset.color);}));
+      order.addEventListener("click",e=>e.stopPropagation());
+      fav.addEventListener("click",e=>{e.stopPropagation();const color=order.dataset.color||"";const key=ck(kode,color);
+        if(wish.has(key))wish.delete(key);else wish.set(key,{kode,name:p.n,code:p.c,color,qty:1});
+        renderCart();});
+      const more=card.querySelector(".more");
+      if(more)more.addEventListener("click",e=>{e.stopPropagation();openModalData(p);});
+      const thumb=card.querySelector(".thumb");let sx=0,sy=0,moved=false;
+      thumb.addEventListener("pointerdown",e=>{sx=e.clientX;sy=e.clientY;moved=false;},{passive:true});
+      thumb.addEventListener("pointermove",e=>{if(Math.abs(e.clientX-sx)>12||Math.abs(e.clientY-sy)>12)moved=true;},{passive:true});
+      thumb.addEventListener("click",e=>{if(e.target.closest(".fav")||moved)return;openModalData(p);});
+    });
+  }
+  wireCards();
+
+  document.querySelectorAll(".cat").forEach(sec=>{const sc=sec.querySelector(".scroller");if(!sc)return;
+    sec.querySelectorAll(".arw").forEach(b=>b.addEventListener("click",()=>sc.scrollBy({left:parseInt(b.dataset.dir)*sc.clientWidth*0.8,behavior:"smooth"})));});
+
+  const chips=[...document.querySelectorAll(".chipnav a")];
+  const secs=chips.map(a=>document.querySelector(a.getAttribute("href")));
+  const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){const id="#"+en.target.id;chips.forEach(c=>c.classList.toggle("active",c.getAttribute("href")===id));}}),{rootMargin:"-45% 0px -50% 0px"});
+  secs.forEach(s=>s&&io.observe(s));
+
+  /* ============ SEARCH ============ */
+  const search=document.getElementById("search"),sToggle=document.getElementById("sToggle"),sInput=document.getElementById("sInput"),sResults=document.getElementById("sResults");
+  sToggle.addEventListener("click",()=>{search.classList.toggle("open");if(search.classList.contains("open"))sInput.focus();else{sInput.value="";sResults.classList.remove("show");sResults.innerHTML="";}});
+  sInput.addEventListener("input",()=>{const q=sInput.value.trim().toLowerCase();
+    if(!q){sResults.classList.remove("show");sResults.innerHTML="";return;}
+    const hits=PRODUCTS.filter(p=>p.n.toLowerCase().includes(q)||(p.c||"").toLowerCase().includes(q));
+    sResults.innerHTML=hits.length?hits.map(rowHTML).join(""):'<div class="s-empty">Tidak ada yang cocok. Coba kata lain \ud83d\udd0d</div>';
+    sResults.classList.add("show");});
+  sResults.addEventListener("click",e=>{const r=e.target.closest(".srow");if(r)openModalData(KODE2P[r.dataset.kode]);});
+
+  /* ============ SHOP BY COLOR ============ */
+  const colorOv=document.getElementById("colorOv"),ovGrid=document.getElementById("ovGrid"),ovTitle=document.getElementById("ovTitle");
+  document.querySelectorAll(".cchip").forEach(ch=>ch.addEventListener("click",()=>{
+    const fam=ch.dataset.fam;const list=PRODUCTS.filter(p=>p.cl.some(c=>c[1]===fam));
+    const famLabel=FAMILIES.find(f=>f[0]===fam)[1];
+    ovTitle.textContent=`Warna ${famLabel} \u00b7 ${list.length} item`;
+    ovGrid.innerHTML=list.map(p=>{const m=p.cl.find(c=>c[1]===fam);return gridCardHTML(p,m?m[0]:null);}).join("");
+    colorOv.classList.add("open");document.body.style.overflow="hidden";ovGrid.scrollTop=0;}));
+  let ovMoved=false,ox=0,oy=0;
+  ovGrid.addEventListener("pointerdown",e=>{ox=e.clientX;oy=e.clientY;ovMoved=false;},{passive:true});
+  ovGrid.addEventListener("pointermove",e=>{if(Math.abs(e.clientX-ox)>12||Math.abs(e.clientY-oy)>12)ovMoved=true;},{passive:true});
+  ovGrid.addEventListener("click",e=>{if(ovMoved)return;const ph=e.target.closest("[data-act='photo']");if(ph){const kode=ph.closest(".rcard").dataset.kode;openModalData(KODE2P[kode]);}});
+  document.getElementById("ovClose").addEventListener("click",()=>{colorOv.classList.remove("open");document.body.style.overflow="";});
+  colorOv.addEventListener("click",e=>{if(e.target===colorOv){colorOv.classList.remove("open");document.body.style.overflow="";}});
+
+  /* ============ VOUCHERS ============ */
+  function copyCode(code,em){const done=()=>{em.textContent="tersalin \u2713";setTimeout(()=>em.textContent="ketuk untuk salin",1500);};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(code).then(done).catch(fb);}else fb();
+    function fb(){const t=document.createElement("textarea");t.value=code;t.style.position="fixed";t.style.opacity=0;document.body.appendChild(t);t.select();try{document.execCommand("copy");done();}catch(e){}t.remove();}}
+  document.querySelectorAll(".v-card").forEach(cardV=>{
+    const claim=cardV.querySelector(".v-claim"),code=cardV.querySelector(".v-code");
+    claim.addEventListener("click",()=>{cardV.classList.add("reveal");});
+    code.addEventListener("click",()=>copyCode(code.dataset.code,code.querySelector("em")));});
+  const vTimer=document.getElementById("vTimer");
+  function tickV(){const now=new Date(),end=new Date();end.setHours(24,0,0,0);let d=Math.max(0,Math.floor((end-now)/1000));
+    const h=String(Math.floor(d/3600)).padStart(2,"0"),m=String(Math.floor(d%3600/60)).padStart(2,"0"),s=String(d%60).padStart(2,"0");
+    if(vTimer)vTimer.textContent=`Semua voucher berlaku ${h}:${m}:${s}`;}
+  tickV();setInterval(tickV,1000);
+
+  /* ============ LOOKBOOK ============ */
+  const magFrame=document.getElementById("magFrame"),magImg=document.getElementById("magImg"),magNo=document.getElementById("magNo"),
+        magFile=document.getElementById("magFile"),magDl=document.getElementById("magDl"),magDots=document.getElementById("magDots");
+  let mi=0;const MAGN=3;
+  magDots.innerHTML=Array.from({length:MAGN},(_,i)=>`<span${i===0?' class="on"':''}></span>`).join("");
+  const magDotEls=[...magDots.children];
+  function showMag(){const n=mi+1;magNo.textContent=n;magFile.textContent=`images/lookbook/edisi-${n}.jpg`;
+    magImg.style.display="none";magImg.src=`images/lookbook/edisi-${n}.jpg`;
+    magImg.onload=()=>{magImg.style.display="block";};magImg.onerror=()=>{magImg.style.display="none";};
+    magDl.textContent=`Download Edisi ${n}`;magDl.href=`lookbook/edisi-${n}.pdf`;
+    magDotEls.forEach((d,i)=>d.classList.toggle("on",i===mi));}
+  magFrame.addEventListener("click",()=>{mi=(mi+1)%MAGN;showMag();});
+  showMag();
+
+  /* ============ BACK TO TOP ============ */
+  const toTop=document.getElementById("toTop");
+  toTop.addEventListener("click",()=>window.scrollTo({top:0,behavior:"smooth"}));
+  window.addEventListener("scroll",()=>toTop.classList.toggle("show",window.scrollY>400),{passive:true});
+
+  /* ============ KERANJANG & CHECKOUT ============ */
+  const cart=document.getElementById("cart"),cartN=document.getElementById("cartN"),cartbar=document.getElementById("cartbar");
+  function refreshFav(){document.querySelectorAll(".card").forEach(card=>{const fav=card.querySelector(".fav");if(!fav)return;const order=card.querySelector(".order");const color=order?(order.dataset.color||""):"";fav.classList.toggle("on",wish.has(ck(card.dataset.kode,color)));});}
+  function renderCart(){const n=wish.size;cartbar.classList.toggle("show",n>0);cartN.textContent=n;refreshFav();}
+  renderCart();
+
+  const checkout=document.getElementById("checkout"),coItems=document.getElementById("coItems"),
+        coTotal=document.getElementById("coTotal"),coAmt=document.getElementById("coAmt"),coWa=document.getElementById("coWa"),
+        coVin=document.getElementById("coVin"),coVapply=document.getElementById("coVapply"),coVmsg=document.getElementById("coVmsg"),
+        coSubRow=document.getElementById("coSubRow"),coSub=document.getElementById("coSub"),
+        coDiscRow=document.getElementById("coDiscRow"),coDiscLbl=document.getElementById("coDiscLbl"),coDiscVal=document.getElementById("coDiscVal");
+  let appliedVoucher=null;
+  const cartTotal=()=>{let t=0;wish.forEach(o=>{const p=KODE2P[o.kode];if(p)t+=(p.np||0)*(o.qty||1);});return t;};
+  const cartCount=()=>[...wish.values()].reduce((a,o)=>a+(o.qty||1),0);
+  function calcCheckout(){const sub=cartTotal();let disc=0,dropped="";
+    if(appliedVoucher){const v=appliedVoucher;
+      if(v.kind==="amount"){if(sub>=v.min)disc=v.amount;else{dropped="Belanja di bawah minimum \u2014 voucher dilepas.";appliedVoucher=null;}}
+      else{if(cartCount()<v.min){dropped="Kurang dari 3 item \u2014 voucher dilepas.";appliedVoucher=null;}}}
+    return {sub,disc,total:sub-disc,dropped};}
+  function checkoutText(c){let t=`Halo ${BRAND}! \ud83d\ude0a Saya mau checkout:`;let i=1;
+    wish.forEach(o=>{const p=KODE2P[o.kode]||{};t+=`\n${i++}. ${p.n||o.name}${o.color?" ("+o.color+")":""} x${o.qty||1} \u2014 ${fmtRp((p.np||0)*(o.qty||1))}`;});
+    if(c.disc>0)t+=`\nSubtotal: ${fmtRp(c.sub)}\nVoucher ${appliedVoucher.code}: -${fmtRp(c.disc)}`;
+    t+=`\nTotal: ${fmtRp(c.total)}\nSaya sudah scan QRIS & akan kirim bukti transfer ya \ud83d\ude4f`;return t;}
+  function syncVoucherUI(){if(appliedVoucher){coVin.value=appliedVoucher.code;coVin.disabled=true;coVapply.textContent="Lepas";}else{coVin.disabled=false;coVapply.textContent="Pakai";}}
+  function renderCheckout(){const arr=[...wish.values()];if(!arr.length){closeCheckout();return;}
+    coItems.innerHTML=arr.map(o=>{const p=KODE2P[o.kode]||{};const line=(p.np||0)*(o.qty||1);
+      return `<div class="co-row" data-key="${esc(o.kode+'||'+(o.color||''))}"><div class="co-info"><b>${p.n||o.name}</b><span>${o.color||"-"} \u00b7 ${fmtRp(p.np)}</span></div>
+        <div class="co-qty"><button data-act="dec" aria-label="Kurangi">\u2212</button><span>${o.qty||1}</span><button data-act="inc" aria-label="Tambah">+</button></div>
+        <div class="co-line">${fmtRp(line)}</div><button class="co-del" data-act="del" aria-label="Hapus">&times;</button></div>`;}).join("");
+    const c=calcCheckout();
+    if(c.dropped){coVmsg.textContent=c.dropped;coVmsg.className="co-vmsg err";}
+    coSubRow.hidden=!(c.disc>0);coDiscRow.hidden=!(c.disc>0);
+    if(c.disc>0){coSub.textContent=fmtRp(c.sub);coDiscLbl.textContent="Diskon ("+appliedVoucher.code+")";coDiscVal.textContent="-"+fmtRp(c.disc);}
+    coTotal.textContent=fmtRp(c.total);coAmt.textContent=fmtRp(c.total);coWa.href=link(checkoutText(c));syncVoucherUI();}
+  function openCheckout(){renderCheckout();checkout.classList.add("open");document.body.style.overflow="hidden";}
+  function closeCheckout(){checkout.classList.remove("open");document.body.style.overflow="";}
+  cart.addEventListener("click",e=>{e.preventDefault();openCheckout();});
+  coItems.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const row=b.closest(".co-row");if(!row)return;
+    const o=wish.get(row.dataset.key);if(!o)return;const a=b.dataset.act;
+    if(a==="inc")o.qty=(o.qty||1)+1;else if(a==="dec")o.qty=Math.max(1,(o.qty||1)-1);
+    else if(a==="del")wish.delete(row.dataset.key);
+    renderCart();renderCheckout();});
+  coVapply.addEventListener("click",()=>{
+    if(appliedVoucher){appliedVoucher=null;coVmsg.textContent="";coVmsg.className="co-vmsg";renderCheckout();return;}
+    const code=coVin.value.trim().toUpperCase();if(!code)return;
+    const v=VOUCHERS.find(x=>x.code.toUpperCase()===code);
+    if(!v){coVmsg.textContent="Kode voucher tidak ditemukan.";coVmsg.className="co-vmsg err";return;}
+    if(v.kind==="amount"&&cartTotal()<v.min){coVmsg.textContent="Min. belanja "+fmtRp(v.min)+" untuk voucher ini.";coVmsg.className="co-vmsg err";return;}
+    if(v.kind==="ongkir"&&cartCount()<v.min){coVmsg.textContent="Min. "+v.min+" item untuk gratis ongkir.";coVmsg.className="co-vmsg err";return;}
+    appliedVoucher=v;coVmsg.textContent="Voucher "+v.code+" dipakai \u2713";coVmsg.className="co-vmsg ok";renderCheckout();});
+  document.getElementById("coCopy").addEventListener("click",e=>{const btn=e.currentTarget,val=String(calcCheckout().total),old=btn.textContent;
+    const done=()=>{btn.textContent="Nominal tersalin \u2713";setTimeout(()=>btn.textContent=old,1500);};
+    if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(val).then(done).catch(done);else done();});
+  document.getElementById("coClose").addEventListener("click",closeCheckout);
+  checkout.addEventListener("click",e=>{if(e.target===checkout)closeCheckout();});
+  document.getElementById("cartClear").addEventListener("click",()=>{
+    if(!wish.size)return;if(!confirm("Kosongkan keranjang?"))return;
+    wish.clear();appliedVoucher=null;
+    document.querySelectorAll(".card .fav.on").forEach(f=>f.classList.remove("on"));
+    renderCart();if(checkout.classList.contains("open"))closeCheckout();});
+
+  /* ============ PHOTO / COLOR MODAL ============ */
+  const modal=document.getElementById("modal"),mSlides=document.getElementById("mSlides"),mName=document.getElementById("mName"),
+        mPrice=document.getElementById("mPrice"),mColor=document.getElementById("mColor"),mOrder=document.getElementById("mOrder"),mCart=document.getElementById("mCart");
+  let mCtx=null;
+  function openModalData(p){if(!p)return;mCtx={kode:p.k,name:p.n,code:p.c};
+    mName.textContent=p.n+"  |  "+p.c;mPrice.innerHTML=priceHTML(p);
+    mSlides.innerHTML=p.cl.map(c=>`<div class="mslide" data-color="${esc(c[0])}" style="background:linear-gradient(155deg,${c[2]}55,var(--cream2))">
+      <div class="mph"><span class="cam">&#9906;</span><span class="mc">${esc(c[0])}</span><small>Ganti dengan foto asli warna ini</small></div></div>`).join("");
+    setModalColor(p.cl[0]?p.cl[0][0]:"");modal.classList.add("open");modal.setAttribute("aria-hidden","false");
+    document.body.style.overflow="hidden";mSlides.scrollLeft=0;}
+  function setModalColor(color){mColor.textContent=color||"-";mOrder.href=link(orderText(mCtx.name,mCtx.code,color));mCart.classList.toggle("incart",wish.has(ck(mCtx.kode,color||"")));}
+  mSlides.addEventListener("scroll",()=>{const mr=mSlides.getBoundingClientRect();const mid=mr.left+mSlides.clientWidth/2;
+    let best=null,bd=1e9;mSlides.querySelectorAll(".mslide").forEach(x=>{const r=x.getBoundingClientRect();const c=r.left+r.width/2;const d=Math.abs(c-mid);if(d<bd){bd=d;best=x;}});if(best)setModalColor(best.dataset.color);},{passive:true});
+  const closeModal=()=>{modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.body.style.overflow="";};
+  mCart.addEventListener("click",()=>{if(!mCtx)return;const kode=mCtx.kode;const color=(mColor.textContent&&mColor.textContent!=="-")?mColor.textContent:"";
+    const key=ck(kode,color);const ex=wish.get(key);wish.set(key,{kode,name:mCtx.name,code:mCtx.code,color,qty:ex?ex.qty:1});
+    renderCart();mCart.classList.add("incart");});
+  document.getElementById("mClose").addEventListener("click",closeModal);
+  modal.addEventListener("click",e=>{if(e.target===modal)closeModal();});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModal();closeCheckout();colorOv.classList.remove("open");document.body.style.overflow="";}});
+
+  /* ============ WA CTA ============ */
+  document.getElementById("mainWa").href=link(GREETING);
+  document.getElementById("floatWa").href=link(GREETING);
+</script>
+</body></html>
