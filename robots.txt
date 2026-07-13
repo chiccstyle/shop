@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chiccstyle.github.io/shop/sitemap.xml
