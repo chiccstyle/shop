@@ -1,0 +1,632 @@
+DAFTAR FILE FOTO — upload ke folder images/ di repo shop
+
+-- Wajib --
+qris.png            (kode QRIS statis, persegi, PNG)
+og-cover.jpg        (1200x630, untuk preview share WA/FB/Google)
+banner-1.jpg / banner-2.jpg / banner-3.jpg   (1600x250, teks di tengah 600px)
+
+-- A023 | Fuji V-Neck Button Knit Cardigan (4 warna) --
+57400800398-putih.jpg
+57400800398-dark-choco.jpg
+57400800398-hitam.jpg
+57400800398-maroon.jpg
+
+-- A08 | Vely Contrast Trim Button Cardigan (4 warna) --
+57150891791-dark-choco.jpg
+57150891791-hitam.jpg
+57150891791-maroon.jpg
+57150891791-putih.jpg
+
+-- 8010 | Luna Brooklyn 99 Graphic Rounded (6 warna) --
+56704511975-khaki.jpg
+56704511975-hitam.jpg
+56704511975-abu.jpg
+56704511975-salem.jpg
+56704511975-maron.jpg
+56704511975-coklat-tua.jpg
+
+-- A32- | Myuzy Wavy Hem Collar Cardigan (4 warna) --
+56151298348-maron.jpg
+56151298348-putih.jpg
+56151298348-coklat.jpg
+56151298348-hitam.jpg
+
+-- 7016 | Chia Square Neck Long Sleeve (6 warna) --
+55902451981-salem.jpg
+55902451981-abu.jpg
+55902451981-khaki.jpg
+55902451981-hitam.jpg
+55902451981-cokelat.jpg
+55902451981-maron.jpg
+
+-- 7014 | Serena Square Neck Drawstring Pointed (6 warna) --
+55405466949-hitam.jpg
+55405466949-khaki.jpg
+55405466949-maroon.jpg
+55405466949-cokelat-tua.jpg
+55405466949-salem.jpg
+55405466949-abu-tua.jpg
+
+-- 7011 | Jessy V-Neck Collar Oval Hem (10 warna) --
+54750033588-hitam.jpg
+54750033588-cokelat-tua.jpg
+54750033588-abu-tua.jpg
+54750033588-maron.jpg
+54750033588-ash-brown.jpg
+54750033588-fuschia.jpg
+54750033588-salem.jpg
+54750033588-lime.jpg
+54750033588-khaki.jpg
+54750033588-misty.jpg
+
+-- 6066 | Aliya One Shoulder Lengan Panjang (6 warna) --
+53210955195-coklat.jpg
+53210955195-hitam.jpg
+53210955195-plum.jpg
+53210955195-abu-tua.jpg
+53210955195-salem.jpg
+53210955195-maroon.jpg
+
+-- 7015 | Mora Square Neck Drawstring Pointed (6 warna) --
+52454766199-hitam.jpg
+52454766199-cokelat.jpg
+52454766199-salem.jpg
+52454766199-abu.jpg
+52454766199-maron.jpg
+52454766199-khaki.jpg
+
+-- A35 | Ayna Peplum Collar Button Cardigan (4 warna) --
+51401304399-coklat.jpg
+51401304399-hitam.jpg
+51401304399-marun.jpg
+51401304399-putih.jpg
+
+-- A10 | Yuna Ruched Cross Back Duo (4 warna) --
+51301388367-dark-choco.jpg
+51301388367-maroon.jpg
+51301388367-hitam.jpg
+51301388367-putih.jpg
+
+-- A44 | Dairy Atasan Wanita Korean Style (10 warna) --
+50261713792-baby-pink-polkadot.jpg
+50261713792-maron.jpg
+50261713792-baby-blue.jpg
+50261713792-ash-grey.jpg
+50261713792-baby-blue-polkadot.jpg
+50261713792-putih-polkadot.jpg
+50261713792-hitam.jpg
+50261713792-hitam-polkadot.jpg
+50261713792-navy.jpg
+50261713792-dusty-pink.jpg
+
+-- A42 | Kanita Polo Collar Knit Top (4 warna) --
+49657072412-coklat.jpg
+49657072412-putih.jpg
+49657072412-maron.jpg
+49657072412-hitam.jpg
+
+-- A41 | Liana V-Neck Cropped Blazer Cardigan (6 warna) --
+48156316291-maroon.jpg
+48156316291-putih.jpg
+48156316291-hitam.jpg
+48156316291-dark-choco.jpg
+48156316291-dusty-pink.jpg
+48156316291-navy.jpg
+
+-- 7018 | Ruby Coquette Bow Embroidery Crop (6 warna) --
+47406330262-maroon.jpg
+47406330262-abu-tua.jpg
+47406330262-cokelat.jpg
+47406330262-hitam.jpg
+47406330262-khaki.jpg
+47406330262-salem.jpg
+
+-- 7020 | Nala Ruched V-Neck Basic Tee (8 warna) --
+46609020149-hitam.jpg
+46609020149-abu-tua.jpg
+46609020149-ashgrey.jpg
+46609020149-maron.jpg
+46609020149-coklat-tua.jpg
+46609020149-lime.jpg
+46609020149-hijau.jpg
+46609020149-biru.jpg
+
+-- 7023 | Sienna Kaos Wanita Slim Fit (6 warna) --
+46313113577-salem.jpg
+46313113577-abu-tua.jpg
+46313113577-hitam.jpg
+46313113577-maron.jpg
+46313113577-cokelat.jpg
+46313113577-khaki.jpg
+
+-- A33 | Byka Button Knit Collar Cardigan (4 warna) --
+45801033892-dark-choco.jpg
+45801033892-maroon.jpg
+45801033892-putih.jpg
+45801033892-hitam.jpg
+
+-- A36 | Liora Ruched Button Knit Cardigan (10 warna) --
+44422238362-taro.jpg
+44422238362-dark-choco.jpg
+44422238362-moss-green.jpg
+44422238362-hitam.jpg
+44422238362-misty.jpg
+44422238362-soft-brown.jpg
+44422238362-misty-blue.jpg
+44422238362-putih.jpg
+44422238362-maron.jpg
+44422238362-dusty-pink.jpg
+
+-- A12 | Carol Twist Ring Long Sleeve (7 warna) --
+44417441344-soft-brown.jpg
+44417441344-dusty-pink.jpg
+44417441344-misty-blue.jpg
+44417441344-moss-green.jpg
+44417441344-coklat.jpg
+44417441344-taro.jpg
+44417441344-misty.jpg
+
+-- A26 | Chloe Foldover Off Shoulder Knit (11 warna) --
+44417436406-misty.jpg
+44417436406-taro.jpg
+44417436406-misty-blue.jpg
+44417436406-hitam.jpg
+44417436406-light-blue.jpg
+44417436406-moss-green.jpg
+44417436406-dusty-pink.jpg
+44417436406-maron.jpg
+44417436406-putih.jpg
+44417436406-dark-choco.jpg
+44417436406-soft-brown.jpg
+
+-- A27 | Clara Cut Out One Shoulder (7 warna) --
+44367422884-moss-green.jpg
+44367422884-baby-blue.jpg
+44367422884-taro.jpg
+44367422884-misty.jpg
+44367422884-soft-brown.jpg
+44367422884-dusty-pink.jpg
+44367422884-misty-blue.jpg
+
+-- A04 | Sofia Coquette Lace Bralette U (4 warna) --
+44316067132-misty.jpg
+44316067132-sky-blue.jpg
+44316067132-dusty-pink.jpg
+44316067132-soft-brown.jpg
+
+-- 6065 | Kanaya Ruched V-Neck Asymmetrical Top (16 warna) --
+44161872892-plum.jpg
+44161872892-maron.jpg
+44161872892-kubus.jpg
+44161872892-fuschia.jpg
+44161872892-lime.jpg
+44161872892-merah.jpg
+44161872892-taro.jpg
+44161872892-cokelat.jpg
+44161872892-army.jpg
+44161872892-navy.jpg
+44161872892-putih.jpg
+44161872892-denim.jpg
+44161872892-hitam.jpg
+44161872892-abu-tua.jpg
+44161872892-khaki.jpg
+44161872892-salem.jpg
+
+-- 6032 | Lucia Square Neck Oval Hem (15 warna) --
+44061876218-abu.jpg
+44061876218-army.jpg
+44061876218-salem.jpg
+44061876218-denim.jpg
+44061876218-kubus.jpg
+44061876218-lemon.jpg
+44061876218-hitam.jpg
+44061876218-navy.jpg
+44061876218-khaki.jpg
+44061876218-plum.jpg
+44061876218-fuschia.jpg
+44061876218-maron.jpg
+44061876218-merah.jpg
+44061876218-lime.jpg
+44061876218-cokelat.jpg
+
+-- A15 | Cantika Bow Strap Off Shoulder (6 warna) --
+43870687876-misty-blue.jpg
+43870687876-moss-green.jpg
+43870687876-taro.jpg
+43870687876-misty.jpg
+43870687876-soft-brown.jpg
+43870687876-dusty-pink.jpg
+
+-- JSA02 | Rosel Knit Crop Tank Top (3 warna) --
+43656257404-biru-muda.jpg
+43656257404-oeatmeal.jpg
+43656257404-putih.jpg
+
+-- 8011 | Luna New York 88 Graphic (6 warna) --
+43627960162-hitam.jpg
+43627960162-maron.jpg
+43627960162-abu.jpg
+43627960162-salem.jpg
+43627960162-khaki.jpg
+43627960162-coklat.jpg
+
+-- A31 | Clovia Ruffle Off Shoulder Long (10 warna) --
+43618539571-soft-brown.jpg
+43618539571-hitam.jpg
+43618539571-taro.jpg
+43618539571-misty-blue.jpg
+43618539571-maron.jpg
+43618539571-moss-green.jpg
+43618539571-dusty-pink.jpg
+43618539571-dark-choco.jpg
+43618539571-misty.jpg
+43618539571-putih.jpg
+
+-- 7013 | Carina Drawstring Pointed Hem Long (6 warna) --
+43578000608-maron.jpg
+43578000608-abu.jpg
+43578000608-hitam.jpg
+43578000608-khaki.jpg
+43578000608-salem.jpg
+43578000608-coklat.jpg
+
+-- A13 | Divia Chest Cut Out Bolero (10 warna) --
+43570706952-misty.jpg
+43570706952-maroon.jpg
+43570706952-misty-blue.jpg
+43570706952-moss-green.jpg
+43570706952-taro.jpg
+43570706952-hitam.jpg
+43570706952-putih.jpg
+43570706952-dusty-pink.jpg
+43570706952-soft-brown.jpg
+43570706952-dark-choco.jpg
+
+-- 6058 | Richelle Square Neck Tali Serut (15 warna) --
+43212071541-fuschia.jpg
+43212071541-salem.jpg
+43212071541-taro.jpg
+43212071541-plum.jpg
+43212071541-hitam.jpg
+43212071541-kubus.jpg
+43212071541-navy.jpg
+43212071541-merah.jpg
+43212071541-abu-tua.jpg
+43212071541-lime.jpg
+43212071541-putih.jpg
+43212071541-army.jpg
+43212071541-lemon.jpg
+43212071541-marun.jpg
+43212071541-cokelat.jpg
+
+-- JSA01 | Ayana Ribbed Collar Crop Top (4 warna) --
+43156266712-putih.jpg
+43156266712-cokelat-muda.jpg
+43156266712-biru.jpg
+43156266712-hitam.jpg
+
+-- A05 | Sonya Coquette Lace Neck Tie (4 warna) --
+43016819339-dusty-pink.jpg
+43016819339-soft-brown.jpg
+43016819339-misty.jpg
+43016819339-sky-blue.jpg
+
+-- 6071 | Akira One Shoulder Top Wanita (14 warna) --
+43012071784-fuschia.jpg
+43012071784-khaki.jpg
+43012071784-putih.jpg
+43012071784-lemon.jpg
+43012071784-navy.jpg
+43012071784-kubus.jpg
+43012071784-salem.jpg
+43012071784-coklat.jpg
+43012071784-army.jpg
+43012071784-lime.jpg
+43012071784-hitam.jpg
+43012071784-merah.jpg
+43012071784-denim.jpg
+43012071784-marun.jpg
+
+-- A17 | Celia Drawstring One Shoulder Top (10 warna) --
+42967469212-maron.jpg
+42967469212-putih.jpg
+42967469212-soft-brown.jpg
+42967469212-misty-blue.jpg
+42967469212-moss-green.jpg
+42967469212-taro.jpg
+42967469212-misty.jpg
+42967469212-dusty-pink.jpg
+42967469212-hitam.jpg
+42967469212-dark-choco.jpg
+
+-- 6052 | Kaluna Square Neck Ruched Crop (17 warna) --
+42761877525-army.jpg
+42761877525-kubus.jpg
+42761877525-fuschia.jpg
+42761877525-navy.jpg
+42761877525-lime.jpg
+42761877525-putih.jpg
+42761877525-maron.jpg
+42761877525-plum.jpg
+42761877525-abu-tua.jpg
+42761877525-hitam.jpg
+42761877525-salem.jpg
+42761877525-denim.jpg
+42761877525-lemon.jpg
+42761877525-cokelat.jpg
+42761877525-merah.jpg
+42761877525-taro.jpg
+42761877525-khaki.jpg
+
+-- A22 | Daisy Bow Halter Long Sleeve (17 warna) --
+42620679848-taro.jpg
+42620679848-dark-choco.jpg
+42620679848-navy.jpg
+42620679848-dusty-pink.jpg
+42620679848-baby-pink-polkadot.jpg
+42620679848-soft-brown.jpg
+42620679848-ash-grey.jpg
+42620679848-baby-blue.jpg
+42620679848-hitam-polkadot.jpg
+42620679848-putih.jpg
+42620679848-maroon.jpg
+42620679848-misty.jpg
+42620679848-hitam.jpg
+42620679848-putih-polkadot.jpg
+42620679848-misty-blue.jpg
+42620679848-moss-green.jpg
+42620679848-baby-blue-polkadot.jpg
+
+-- A39 | Noora Ruffle Off Shoulder Button (6 warna) --
+42578586006-dusty-pink.jpg
+42578586006-hitam.jpg
+42578586006-dark-choco.jpg
+42578586006-maroon.jpg
+42578586006-putih.jpg
+42578586006-navy.jpg
+
+-- A20 | Diana Foldover One Shoulder Knit (6 warna) --
+42520709206-misty.jpg
+42520709206-soft-brown.jpg
+42520709206-dusty-pink.jpg
+42520709206-misty-blue.jpg
+42520709206-moss-green.jpg
+42520709206-taro.jpg
+
+-- A09 | Stella Coquette Lace Bow Knit (12 warna) --
+42364503379-maron.jpg
+42364503379-putih-polkadot.jpg
+42364503379-soft-brown.jpg
+42364503379-dusty-pink.jpg
+42364503379-baby-pink-polkadot.jpg
+42364503379-hitam.jpg
+42364503379-ashgray.jpg
+42364503379-coklat.jpg
+42364503379-hitam-polkadot.jpg
+42364503379-sky-blue-polkadot.jpg
+42364503379-misty.jpg
+42364503379-sky-blue.jpg
+
+-- 6042 | Qayla Side Drawstring/Tali Serut Samping (16 warna) --
+42161876970-salem.jpg
+42161876970-dusty-pink.jpg
+42161876970-navy.jpg
+42161876970-biru.jpg
+42161876970-fuschia.jpg
+42161876970-kubus.jpg
+42161876970-cokelat.jpg
+42161876970-army.jpg
+42161876970-putih.jpg
+42161876970-maron.jpg
+42161876970-taro.jpg
+42161876970-abu-tua.jpg
+42161876970-khaki.jpg
+42161876970-hitam.jpg
+42161876970-merah.jpg
+42161876970-lemon.jpg
+
+-- A37 | Cavita Mock Neck Cap Sleeve (6 warna) --
+41920686829-moss-green.jpg
+41920686829-taro.jpg
+41920686829-misty.jpg
+41920686829-soft-brown.jpg
+41920686829-dusty-pink.jpg
+41920686829-misty-blue.jpg
+
+-- A34 | Delia Asymmetrical Shoulder Knit Top (6 warna) --
+41820708549-misty.jpg
+41820708549-soft-brown.jpg
+41820708549-dusty-pink.jpg
+41820708549-misty-blue.jpg
+41820708549-moss-green.jpg
+41820708549-taro.jpg
+
+-- A25 | Chani Twist Off Shoulder Top (14 warna) --
+41718485447-sage-olive.jpg
+41718485447-baby-blue.jpg
+41718485447-moss-green.jpg
+41718485447-ash-grey.jpg
+41718485447-soft-brown.jpg
+41718485447-misty-blue.jpg
+41718485447-taro.jpg
+41718485447-misty.jpg
+41718485447-dusty-tosca.jpg
+41718485447-htam.jpg
+41718485447-dusty-pink.jpg
+41718485447-putih.jpg
+41718485447-dark-choco.jpg
+41718485447-maron.jpg
+
+-- 7024 | Elody Kaos Wanita Lengan Panjang (6 warna) --
+41682155240-khaki.jpg
+41682155240-cokelat.jpg
+41682155240-maron.jpg
+41682155240-hitam.jpg
+41682155240-abu-tua.jpg
+41682155240-salem.jpg
+
+-- A18 | Cavia 2 In 1 Knit (6 warna) --
+41418481397-dusty-pink.jpg
+41418481397-misty-blue.jpg
+41418481397-moss-green.jpg
+41418481397-taro.jpg
+41418481397-misty.jpg
+41418481397-soft-brown.jpg
+
+-- A14 | Diffa Ruched Keyhole Halter Top (6 warna) --
+41320699591-soft-brown.jpg
+41320699591-dusty-pink.jpg
+41320699591-misty-blue.jpg
+41320699591-moss-green.jpg
+41320699591-taro.jpg
+41320699591-misty.jpg
+
+-- 7010 | Rhea V-Neck Collar Oval Hem (6 warna) --
+41075632399-hitam.jpg
+41075632399-maron.jpg
+41075632399-abu-tua.jpg
+41075632399-salem.jpg
+41075632399-cokelat-tua.jpg
+41075632399-khaki.jpg
+
+-- A11 | Davina Bow Strap Off Shoulder (6 warna) --
+41070682640-dusty-pink.jpg
+41070682640-misty-blue.jpg
+41070682640-moss-green.jpg
+41070682640-taro.jpg
+41070682640-misty.jpg
+41070682640-soft-brown.jpg
+
+-- A40 | Ayla One Shoulder Pointed Hem (6 warna) --
+41022229828-dusty-pink.jpg
+41022229828-misty-blue.jpg
+41022229828-moss-green.jpg
+41022229828-taro.jpg
+41022229828-misty.jpg
+41022229828-soft-brown.jpg
+
+-- A07 | Sarah Coquette Lace Tie Off (4 warna) --
+40816072453-sky-blue.jpg
+40816072453-dusty-pink.jpg
+40816072453-soft-brown.jpg
+40816072453-misty.jpg
+
+-- A02 | Sierra Coquette Lace Bow Ruched (4 warna) --
+40466058510-dusty-pink.jpg
+40466058510-sky-blue.jpg
+40466058510-soft-brown.jpg
+40466058510-misty.jpg
+
+-- A21 | Cacha Coquette Lace Bow 2 (10 warna) --
+40418542564-putih.jpg
+40418542564-taro.jpg
+40418542564-dark-choco.jpg
+40418542564-misty-blue.jpg
+40418542564-misty.jpg
+40418542564-soft-brown.jpg
+40418542564-dusty-pink.jpg
+40418542564-moss-green.jpg
+40418542564-hitam.jpg
+40418542564-maroon.jpg
+
+-- A43 | Noire Gold Ring One Shoulder (9 warna) --
+40330209513-putih.jpg
+40330209513-dark-choco.jpg
+40330209513-baby-blue.jpg
+40330209513-navy.jpg
+40330209513-maron.jpg
+40330209513-soft-brown.jpg
+40330209513-hitam.jpg
+40330209513-dusty-pink.jpg
+40330209513-misty.jpg
+
+-- A06 | Sasha Coquette Triple Bow Lace (4 warna) --
+40066089917-dusty-pink.jpg
+40066089917-soft-brown.jpg
+40066089917-misty.jpg
+40066089917-sky-blue.jpg
+
+-- 28643509129 | Virly Ruched Waist V-Neck Cardigan (3 warna) --
+28643509129-putih.jpg
+28643509129-hitam.jpg
+28643509129-maroon.jpg
+
+-- A19 | Cindy Button Detail Draped One (7 warna) --
+28141392638-soft-brown.jpg
+28141392638-dusty-pink.jpg
+28141392638-misty-blue.jpg
+28141392638-moss-green.jpg
+28141392638-baby-blue.jpg
+28141392638-taro.jpg
+28141392638-misty.jpg
+
+-- A24 | Cecil Bow Tie Strap Off (6 warna) --
+27641115225-misty-blue.jpg
+27641115225-moss-green.jpg
+27641115225-taro.jpg
+27641115225-misty.jpg
+27641115225-soft-brown.jpg
+27641115225-dusty-pink.jpg
+
+-- A16 | Cynthia Square Neck Pointed Hem (6 warna) --
+27541109650-misty-blue.jpg
+27541109650-moss-green.jpg
+27541109650-taro.jpg
+27541109650-misty.jpg
+27541109650-soft-brown.jpg
+27541109650-dusty-pink.jpg
+
+-- A03 | Sally Coquette Multiway Lace Bow (4 warna) --
+27290308731-soft-brown.jpg
+27290308731-misty.jpg
+27290308731-sky-blue.jpg
+27290308731-dusty-pink.jpg
+
+-- A28 | Tiara One Shoulder Pointed Hem (10 warna) --
+26841115121-maron.jpg
+26841115121-moss-green.jpg
+26841115121-dusty-pink.jpg
+26841115121-hitam.jpg
+26841115121-soft-brown.jpg
+26841115121-misty.jpg
+26841115121-taro.jpg
+26841115121-misty-blue.jpg
+26841115121-dark-choco.jpg
+26841115121-putih.jpg
+
+-- A01 | Stevy Lace Bow Knit Top (9 warna) --
+26840369369-tocsa.jpg
+26840369369-hitam.jpg
+26840369369-misty.jpg
+26840369369-maron.jpg
+26840369369-ash-grey.jpg
+26840369369-cokelat.jpg
+26840369369-dusty-pink.jpg
+26840369369-soft-brown.jpg
+26840369369-sky-blue.jpg
+
+-- A29 | Claire One Shoulder Asymmetric Knit (10 warna) --
+26741111516-taro.jpg
+26741111516-hitam.jpg
+26741111516-misty-blue.jpg
+26741111516-soft-brown.jpg
+26741111516-misty.jpg
+26741111516-dark-choco.jpg
+26741111516-putih.jpg
+26741111516-dusty-pink.jpg
+26741111516-moss-green.jpg
+26741111516-maron.jpg
+
+-- 7017 | Lovely Collar Crop Top Bordir (6 warna) --
+25247990914-cokelat-tua.jpg
+25247990914-abu-tua.jpg
+25247990914-salem.jpg
+25247990914-maroon.jpg
+25247990914-khaki.jpg
+25247990914-hitam.jpg
+
+-- S01 | Luvita Ribbed Knit Two Set (4 warna) --
+24446933507-cream.jpg
+24446933507-hitam.jpg
+24446933507-biru.jpg
+24446933507-hijau.jpg
