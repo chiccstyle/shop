@@ -1,0 +1,507 @@
+PANDUAN NAMA FOTO JPG CHICC STYLE
+================================
+
+BACA SATU KALI SEBELUM MULAI
+1. Di File Explorer, aktifkan: View > Show > File name extensions.
+2. Jangan mengetik atau menempel .jpg saat mengganti nama. Akhiran JPG sudah ada.
+3. Salin hanya nama pada kolom SALIN NAMA INI. Jangan salin .jpg.
+4. Contoh Stevy / Dusty Pink: ganti nama menjadi stevypink
+   Windows akan menyimpannya sebagai stevypink.jpg.
+5. Jangan mengetik stevypink.jpg sendiri. Itu dapat menjadi stevypink.jpg.jpg.
+6. Masukkan semua foto ke folder images pada website.
+7. Setelah selesai, klik dua kali Run Chicc Image Fixer.bat.
+   Alat ini memperbaiki .jpg.jpg, mengubah .jpeg menjadi .jpg, merapikan huruf,
+   dan mencocokkan banyak nama berdasarkan SKU, produk, dan warna.
+   Alat tidak akan menimpa file lain yang sudah ada.
+
+FORMAT DAFTAR:
+SKU INDUK | PRODUK | WARNA | UKURAN | SKU VARIASI | SALIN NAMA INI | NAMA FILE WEBSITE
+
+A023 | Fuji V-Neck Button Knit Cardigan | Putih | - | A023-putih | fujiputih | fujiputih.jpg
+A023 | Fuji V-Neck Button Knit Cardigan | Dark Choco | - | A023-coktua | fujidarkchoco | fujidarkchoco.jpg
+A023 | Fuji V-Neck Button Knit Cardigan | Hitam | - | A023-hitam | fujihitam | fujihitam.jpg
+A023 | Fuji V-Neck Button Knit Cardigan | Maroon | - | A023-marun | fujimaroon | fujimaroon.jpg
+A08 | Vely Contrast Trim Button Cardigan | Dark Choco | - | A08-coktu | velydarkchoco | velydarkchoco.jpg
+A08 | Vely Contrast Trim Button Cardigan | Hitam | - | A08-hitam | velyhitam | velyhitam.jpg
+A08 | Vely Contrast Trim Button Cardigan | Maroon | - | A08-marun | velymaroon | velymaroon.jpg
+A08 | Vely Contrast Trim Button Cardigan | Putih | - | A08-putih | velyputih | velyputih.jpg
+8010 | Luna Brooklyn 99 Graphic Rounded | Khaki | - | 8010-khaki | lunabrooklynkhaki | lunabrooklynkhaki.jpg
+8010 | Luna Brooklyn 99 Graphic Rounded | Hitam | - | 8010-hitam | lunabrooklynhitam | lunabrooklynhitam.jpg
+8010 | Luna Brooklyn 99 Graphic Rounded | Abu | - | 8010-abu | lunabrooklynabu | lunabrooklynabu.jpg
+8010 | Luna Brooklyn 99 Graphic Rounded | Salem | - | 8010-salem | lunabrooklynsalem | lunabrooklynsalem.jpg
+8010 | Luna Brooklyn 99 Graphic Rounded | Maron | - | 8010-maron | lunabrooklynmaroon | lunabrooklynmaroon.jpg
+8010 | Luna Brooklyn 99 Graphic Rounded | Coklat tua | - | 8010-coktua | lunabrooklyncoklattua | lunabrooklyncoklattua.jpg
+A32- | Myuzy Wavy Hem Collar Cardigan | Maron | - | A32-marun | myuzymaroon | myuzymaroon.jpg
+A32- | Myuzy Wavy Hem Collar Cardigan | Putih | - | A32-putih | myuzyputih | myuzyputih.jpg
+A32- | Myuzy Wavy Hem Collar Cardigan | Coklat | - | A32-coklat | myuzycoklat | myuzycoklat.jpg
+A32- | Myuzy Wavy Hem Collar Cardigan | Hitam | - | A32-hitam | myuzyhitam | myuzyhitam.jpg
+7016 | Chia Square Neck Long Sleeve | Salem | - | 7016-salem | chiasalem | chiasalem.jpg
+7016 | Chia Square Neck Long Sleeve | Abu | - | 7016-abu | chiaabu | chiaabu.jpg
+7016 | Chia Square Neck Long Sleeve | Khaki | - | 7016-khaki | chiakhaki | chiakhaki.jpg
+7016 | Chia Square Neck Long Sleeve | Hitam | - | 7016-hitam | chiahitam | chiahitam.jpg
+7016 | Chia Square Neck Long Sleeve | Cokelat | - | 7016-coklattua | chiacoklat | chiacoklat.jpg
+7016 | Chia Square Neck Long Sleeve | Maron | - | 7016-maron | chiamaroon | chiamaroon.jpg
+7014 | Serena Square Neck Drawstring Pointed | Hitam | - | 7014-hitam | serenahitam | serenahitam.jpg
+7014 | Serena Square Neck Drawstring Pointed | Khaki | - | 7014-khaki | serenakhaki | serenakhaki.jpg
+7014 | Serena Square Neck Drawstring Pointed | Maroon | - | 7014-marun | serenamaroon | serenamaroon.jpg
+7014 | Serena Square Neck Drawstring Pointed | Cokelat Tua | - | 7014-coktu | serenacoklattua | serenacoklattua.jpg
+7014 | Serena Square Neck Drawstring Pointed | Salem | - | 7014-salem | serenasalem | serenasalem.jpg
+7014 | Serena Square Neck Drawstring Pointed | Abu Tua | - | 7014-abu | serenaabutua | serenaabutua.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Hitam | M/S/L | 7011 | jessyhitam | jessyhitam.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Cokelat Tua | M/L/S | 7011 | jessycoklattua | jessycoklattua.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Abu Tua | S/L/M | 7011 | jessyabutua | jessyabutua.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Maron | M/L/S | 7011 | jessymaroon | jessymaroon.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Ash Brown | S/M/L | 7011 | jessyashbrown | jessyashbrown.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Fuschia | S/M/L | 7011 | jessyfuschia | jessyfuschia.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Salem | M/S/L | 7011 | jessysalem | jessysalem.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Lime | L/M/S | 7011 | jessylime | jessylime.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Khaki | S/M/L | 7011 | jessykhaki | jessykhaki.jpg
+7011 | Jessy V-Neck Collar Oval Hem | Misty | S/M/L | 7011 | jessymisty | jessymisty.jpg
+6066 | Aliya One Shoulder Lengan Panjang | Coklat | M/XL/S/L | 6066 | aliyacoklat | aliyacoklat.jpg
+6066 | Aliya One Shoulder Lengan Panjang | Hitam | M/XL/L/S | 6066 | aliyahitam | aliyahitam.jpg
+6066 | Aliya One Shoulder Lengan Panjang | Plum | S/XL/M/L | 6066 | aliyaplum | aliyaplum.jpg
+6066 | Aliya One Shoulder Lengan Panjang | Abu Tua | S/XL/M/L | 6066 | aliyaabutua | aliyaabutua.jpg
+6066 | Aliya One Shoulder Lengan Panjang | Salem | S/XL/M/L | 6066 | aliyasalem | aliyasalem.jpg
+6066 | Aliya One Shoulder Lengan Panjang | Maroon | L/M/S/XL | 6066 | aliyamaroon | aliyamaroon.jpg
+7015 | Mora Square Neck Drawstring Pointed | Hitam | - | 7015-hitam | morahitam | morahitam.jpg
+7015 | Mora Square Neck Drawstring Pointed | Cokelat | - | 7015-coktu | moracoklat | moracoklat.jpg
+7015 | Mora Square Neck Drawstring Pointed | Salem | - | 7015-salem | morasalem | morasalem.jpg
+7015 | Mora Square Neck Drawstring Pointed | Abu | - | 7015-abu | moraabu | moraabu.jpg
+7015 | Mora Square Neck Drawstring Pointed | Maron | - | 7015-marun | moramaroon | moramaroon.jpg
+7015 | Mora Square Neck Drawstring Pointed | Khaki | - | 7015-khaki | morakhaki | morakhaki.jpg
+A35 | Ayna Peplum Collar Button Cardigan | Coklat | - | A35-coklat | aynacoklat | aynacoklat.jpg
+A35 | Ayna Peplum Collar Button Cardigan | Hitam | - | A35-hitam | aynahitam | aynahitam.jpg
+A35 | Ayna Peplum Collar Button Cardigan | Marun | - | A35-marun | aynamaroon | aynamaroon.jpg
+A35 | Ayna Peplum Collar Button Cardigan | Putih | - | A35-putih | aynaputih | aynaputih.jpg
+A10 | Yuna Ruched Cross Back Duo | Dark Choco | - | A10-coktu | yunadarkchoco | yunadarkchoco.jpg
+A10 | Yuna Ruched Cross Back Duo | Maroon | - | A10-marun | yunamaroon | yunamaroon.jpg
+A10 | Yuna Ruched Cross Back Duo | Hitam | - | A10-hitam | yunahitam | yunahitam.jpg
+A10 | Yuna Ruched Cross Back Duo | Putih | - | A10-putih | yunaputih | yunaputih.jpg
+A44 | Dairy Atasan Wanita Korean Style | Baby Pink Polkadot | - | A44-polka | dairypinkdot | dairypinkdot.jpg
+A44 | Dairy Atasan Wanita Korean Style | Maron | - | A44-marton | dairymaroon | dairymaroon.jpg
+A44 | Dairy Atasan Wanita Korean Style | Baby Blue | - | A44-birumuda | dairybabyblue | dairybabyblue.jpg
+A44 | Dairy Atasan Wanita Korean Style | Ash Grey | - | A44-abumuda | dairyashgrey | dairyashgrey.jpg
+A44 | Dairy Atasan Wanita Korean Style | Baby Blue Polkadot | - | A44-polka | dairybluedot | dairybluedot.jpg
+A44 | Dairy Atasan Wanita Korean Style | Putih Polkadot | - | A44-polka | dairyputihdot | dairyputihdot.jpg
+A44 | Dairy Atasan Wanita Korean Style | Hitam | - | A44-hitam | dairyhitam | dairyhitam.jpg
+A44 | Dairy Atasan Wanita Korean Style | Hitam Polkadot | - | A44-polka | dairyhitamdot | dairyhitamdot.jpg
+A44 | Dairy Atasan Wanita Korean Style | Navy | - | A44-navy | dairynavy | dairynavy.jpg
+A44 | Dairy Atasan Wanita Korean Style | Dusty Pink | - | A44-pink | dairypink | dairypink.jpg
+A42 | Kanita Polo Collar Knit Top | Coklat | XL/S/M/L | A42 | kanitacoklat | kanitacoklat.jpg
+A42 | Kanita Polo Collar Knit Top | Putih | S/L/M/XL | A42 | kanitaputih | kanitaputih.jpg
+A42 | Kanita Polo Collar Knit Top | Maron | XL/S/M/L | A42 | kanitamaroon | kanitamaroon.jpg
+A42 | Kanita Polo Collar Knit Top | Hitam | XL/L/M/S | A42 | kanitahitam | kanitahitam.jpg
+A41 | Liana V-Neck Cropped Blazer Cardigan | Maroon | - | A41-marun | lianamaroon | lianamaroon.jpg
+A41 | Liana V-Neck Cropped Blazer Cardigan | Putih | - | A41-putih | lianaputih | lianaputih.jpg
+A41 | Liana V-Neck Cropped Blazer Cardigan | Hitam | - | A41-hitam | lianahitam | lianahitam.jpg
+A41 | Liana V-Neck Cropped Blazer Cardigan | Dark Choco | - | A41-coktu | lianadarkchoco | lianadarkchoco.jpg
+A41 | Liana V-Neck Cropped Blazer Cardigan | Dusty Pink | - | A41-pink | lianapink | lianapink.jpg
+A41 | Liana V-Neck Cropped Blazer Cardigan | Navy | - | A41-navy | liananavy | liananavy.jpg
+7018 | Ruby Coquette Bow Embroidery Crop | Maroon | S/L/M | 7018 | rubymaroon | rubymaroon.jpg
+7018 | Ruby Coquette Bow Embroidery Crop | Abu Tua | L/M/S | 7018 | rubyabutua | rubyabutua.jpg
+7018 | Ruby Coquette Bow Embroidery Crop | Cokelat | S/M/L | 7018 | rubycoklat | rubycoklat.jpg
+7018 | Ruby Coquette Bow Embroidery Crop | Hitam | S/M/L | 7018 | rubyhitam | rubyhitam.jpg
+7018 | Ruby Coquette Bow Embroidery Crop | Khaki | M/L/S | 7018 | rubykhaki | rubykhaki.jpg
+7018 | Ruby Coquette Bow Embroidery Crop | Salem | L/S/M | 7018 | rubysalem | rubysalem.jpg
+7020 | Nala Ruched V-Neck Basic Tee | Hitam | - | 7020-htm | nalahitam | nalahitam.jpg
+7020 | Nala Ruched V-Neck Basic Tee | Abu Tua | - | 7020-abutua | nalaabutua | nalaabutua.jpg
+7020 | Nala Ruched V-Neck Basic Tee | Ashgrey | - | 7020-abumuda | nalaashgrey | nalaashgrey.jpg
+7020 | Nala Ruched V-Neck Basic Tee | Maron | - | 7020-maron | nalamaroon | nalamaroon.jpg
+7020 | Nala Ruched V-Neck Basic Tee | Coklat Tua | - | 7020-coktu | nalacoklattua | nalacoklattua.jpg
+7020 | Nala Ruched V-Neck Basic Tee | Lime | - | 7020-lime | nalalime | nalalime.jpg
+7020 | Nala Ruched V-Neck Basic Tee | Hijau | - | 7020-hijau | nalahijau | nalahijau.jpg
+7020 | Nala Ruched V-Neck Basic Tee | Biru | - | 7020-biru | nalabiru | nalabiru.jpg
+7023 | Sienna Kaos Wanita Slim Fit | Salem | - | 7023-salem | siennasalem | siennasalem.jpg
+7023 | Sienna Kaos Wanita Slim Fit | Abu Tua | - | 7023-abu | siennaabutua | siennaabutua.jpg
+7023 | Sienna Kaos Wanita Slim Fit | Hitam | - | 7023-hitam | siennahitam | siennahitam.jpg
+7023 | Sienna Kaos Wanita Slim Fit | Maron | - | 7023-maron | siennamaroon | siennamaroon.jpg
+7023 | Sienna Kaos Wanita Slim Fit | Cokelat | - | 7023-coklat | siennacoklat | siennacoklat.jpg
+7023 | Sienna Kaos Wanita Slim Fit | Khaki | - | 7023-khaki | siennakhaki | siennakhaki.jpg
+A33 | Byka Button Knit Collar Cardigan | Dark Choco | - | A33-coktu | bykadarkchoco | bykadarkchoco.jpg
+A33 | Byka Button Knit Collar Cardigan | Maroon | - | A33-marun | bykamaroon | bykamaroon.jpg
+A33 | Byka Button Knit Collar Cardigan | Putih | - | A33-putih | bykaputih | bykaputih.jpg
+A33 | Byka Button Knit Collar Cardigan | Hitam | - | A33-hitam | bykahitam | bykahitam.jpg
+A36 | Liora Ruched Button Knit Cardigan | Taro | - | A36-taro | liorataro | liorataro.jpg
+A36 | Liora Ruched Button Knit Cardigan | Dark Choco | - | A36-coktua | lioradarkchoco | lioradarkchoco.jpg
+A36 | Liora Ruched Button Knit Cardigan | Moss Green | - | A36-hijau | lioramossgreen | lioramossgreen.jpg
+A36 | Liora Ruched Button Knit Cardigan | Hitam | - | A36-hitam | liorahitam | liorahitam.jpg
+A36 | Liora Ruched Button Knit Cardigan | Misty | - | A36-abu | lioramisty | lioramisty.jpg
+A36 | Liora Ruched Button Knit Cardigan | Soft Brown | - | A36-coksu | liorasoftbrown | liorasoftbrown.jpg
+A36 | Liora Ruched Button Knit Cardigan | Misty Blue | - | A36-biru | lioramistyblue | lioramistyblue.jpg
+A36 | Liora Ruched Button Knit Cardigan | Putih | - | A36-putih | lioraputih | lioraputih.jpg
+A36 | Liora Ruched Button Knit Cardigan | Maron | - | A36-marun | lioramaroon | lioramaroon.jpg
+A36 | Liora Ruched Button Knit Cardigan | Dusty Pink | - | A36-pink | liorapink | liorapink.jpg
+A12 | Carol Twist Ring Long Sleeve | Soft Brown | - | A12-coksu | carolsoftbrown | carolsoftbrown.jpg
+A12 | Carol Twist Ring Long Sleeve | Dusty Pink | - | A12-pink | carolpink | carolpink.jpg
+A12 | Carol Twist Ring Long Sleeve | Misty Blue | - | A12-biru | carolmistyblue | carolmistyblue.jpg
+A12 | Carol Twist Ring Long Sleeve | Moss Green | - | A12-hijau | carolmossgreen | carolmossgreen.jpg
+A12 | Carol Twist Ring Long Sleeve | Coklat | - | A12-coktu | carolcoklat | carolcoklat.jpg
+A12 | Carol Twist Ring Long Sleeve | Taro | - | A12-taro | caroltaro | caroltaro.jpg
+A12 | Carol Twist Ring Long Sleeve | Misty | - | A12-abu | carolmisty | carolmisty.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Misty | - | A26-abu | chloemisty | chloemisty.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Taro | - | A26-taro | chloetaro | chloetaro.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Misty Blue | - | A26-biru | chloemistyblue | chloemistyblue.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Hitam | - | A26-hitam | chloehitam | chloehitam.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Light Blue | - | A26-birmud | chloelightblue | chloelightblue.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Moss Green | - | A26-hijau | chloemossgreen | chloemossgreen.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Dusty Pink | - | A26-pink | chloepink | chloepink.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Maron | - | A26-maron | chloemaroon | chloemaroon.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Putih | - | A26-putih | chloeputih | chloeputih.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Dark Choco | - | A26-coktua | chloedarkchoco | chloedarkchoco.jpg
+A26 | Chloe Foldover Off Shoulder Knit | Soft Brown | - | A26-coksu | chloesoftbrown | chloesoftbrown.jpg
+A27 | Clara Cut Out One Shoulder | Moss Green | - | A27-hijau | claramossgreen | claramossgreen.jpg
+A27 | Clara Cut Out One Shoulder | Baby blue | - | A27-birmud | clarababyblue | clarababyblue.jpg
+A27 | Clara Cut Out One Shoulder | Taro | - | A27-taro | clarataro | clarataro.jpg
+A27 | Clara Cut Out One Shoulder | Misty | - | A27-abu | claramisty | claramisty.jpg
+A27 | Clara Cut Out One Shoulder | Soft Brown | - | A27-coksu | clarasoftbrown | clarasoftbrown.jpg
+A27 | Clara Cut Out One Shoulder | Dusty Pink | - | A27-pink | clarapink | clarapink.jpg
+A27 | Clara Cut Out One Shoulder | Misty Blue | - | A27-biru | claramistyblue | claramistyblue.jpg
+A04 | Sofia Coquette Lace Bralette U | Misty | - | A04-abu | sofiamisty | sofiamisty.jpg
+A04 | Sofia Coquette Lace Bralette U | Sky Blue | - | A04-biru | sofiaskyblue | sofiaskyblue.jpg
+A04 | Sofia Coquette Lace Bralette U | Dusty Pink | - | A04-pink | sofiapink | sofiapink.jpg
+A04 | Sofia Coquette Lace Bralette U | Soft Brown | - | A04-coksu | sofiasoftbrown | sofiasoftbrown.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Plum | - | 6065-plum | kanayaplum | kanayaplum.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Maron | - | 6065-maron | kanayamaroon | kanayamaroon.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Kubus | - | 6065-kubus | kanayakubus | kanayakubus.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Fuschia | - | 6065-fuschia | kanayafuschia | kanayafuschia.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Lime | - | 6065-lime | kanayalime | kanayalime.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Merah | - | 6065-merah | kanayamerah | kanayamerah.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Taro | - | 6065-taro | kanayataro | kanayataro.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Cokelat | - | 6065-coklat | kanayacoklat | kanayacoklat.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Army | - | 6065-army | kanayaarmy | kanayaarmy.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Navy | - | 6065-navy | kanayanavy | kanayanavy.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Putih | - | 6065-putih | kanayaputih | kanayaputih.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Denim | - | 6065-denim | kanayadenim | kanayadenim.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Hitam | - | 6065-hitam | kanayahitam | kanayahitam.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Abu Tua | - | 6065-abu | kanayaabutua | kanayaabutua.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Khaki | - | 6065-khaki | kanayakhaki | kanayakhaki.jpg
+6065 | Kanaya Ruched V-Neck Asymmetrical Top | Salem | - | 6065-salem | kanayasalem | kanayasalem.jpg
+6032 | Lucia Square Neck Oval Hem | abu | - | 6032-abu | luciaabu | luciaabu.jpg
+6032 | Lucia Square Neck Oval Hem | army | - | 6032-army | luciaarmy | luciaarmy.jpg
+6032 | Lucia Square Neck Oval Hem | salem | - | 6032-salem | luciasalem | luciasalem.jpg
+6032 | Lucia Square Neck Oval Hem | denim | - | 6032-denim | luciadenim | luciadenim.jpg
+6032 | Lucia Square Neck Oval Hem | kubus | - | 6032-kubus | luciakubus | luciakubus.jpg
+6032 | Lucia Square Neck Oval Hem | lemon | - | 6032-lemon | lucialemon | lucialemon.jpg
+6032 | Lucia Square Neck Oval Hem | Hitam | - | 6032-hitam | luciahitam | luciahitam.jpg
+6032 | Lucia Square Neck Oval Hem | navy | - | 6032-navy | lucianavy | lucianavy.jpg
+6032 | Lucia Square Neck Oval Hem | Khaki | - | 6032-khaki | luciakhaki | luciakhaki.jpg
+6032 | Lucia Square Neck Oval Hem | plum | - | 6032-plum | luciaplum | luciaplum.jpg
+6032 | Lucia Square Neck Oval Hem | Fuschia | - | 6032-fuschia | luciafuschia | luciafuschia.jpg
+6032 | Lucia Square Neck Oval Hem | Maron | - | 6032-maron | luciamaroon | luciamaroon.jpg
+6032 | Lucia Square Neck Oval Hem | Merah | - | 6032-merah | luciamerah | luciamerah.jpg
+6032 | Lucia Square Neck Oval Hem | Lime | - | 6032-lime | lucialime | lucialime.jpg
+6032 | Lucia Square Neck Oval Hem | Cokelat | - | 6032-coklat | luciacoklat | luciacoklat.jpg
+A15 | Cantika Bow Strap Off Shoulder | Misty Blue | - | A15-biru | cantikamistyblue | cantikamistyblue.jpg
+A15 | Cantika Bow Strap Off Shoulder | Moss Green | - | A15-hijau | cantikamossgreen | cantikamossgreen.jpg
+A15 | Cantika Bow Strap Off Shoulder | Taro | - | A15-taro | cantikataro | cantikataro.jpg
+A15 | Cantika Bow Strap Off Shoulder | Misty | - | A15-abu | cantikamisty | cantikamisty.jpg
+A15 | Cantika Bow Strap Off Shoulder | Soft Brown | - | A15-coksu | cantikasoftbrown | cantikasoftbrown.jpg
+A15 | Cantika Bow Strap Off Shoulder | Dusty Pink | - | A15-pink | cantikapink | cantikapink.jpg
+JSA02 | Rosel Knit Crop Tank Top | Biru Muda | - | JSA02-biru | roselbirumuda | roselbirumuda.jpg
+JSA02 | Rosel Knit Crop Tank Top | Oeatmeal | - | JSA02-crem | roseloatmeal | roseloatmeal.jpg
+JSA02 | Rosel Knit Crop Tank Top | Putih | - | JSA02-puth | roselputih | roselputih.jpg
+8011 | Luna New York 88 Graphic | Hitam | - | 8011-hitam | lunanewyorkhitam | lunanewyorkhitam.jpg
+8011 | Luna New York 88 Graphic | Maron | - | 8011-maron | lunanewyorkmaroon | lunanewyorkmaroon.jpg
+8011 | Luna New York 88 Graphic | Abu | - | 8011-abu | lunanewyorkabu | lunanewyorkabu.jpg
+8011 | Luna New York 88 Graphic | Salem | - | 8011-salem | lunanewyorksalem | lunanewyorksalem.jpg
+8011 | Luna New York 88 Graphic | Khaki | - | 8011-khaki | lunanewyorkkhaki | lunanewyorkkhaki.jpg
+8011 | Luna New York 88 Graphic | Coklat | - | 8011-coklattua | lunanewyorkcoklat | lunanewyorkcoklat.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Soft Brown | - | A31-coksu | cloviasoftbrown | cloviasoftbrown.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Hitam | - | A31-hitam | cloviahitam | cloviahitam.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Taro | - | A31-taro | cloviataro | cloviataro.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Misty Blue | - | A31-biru | cloviamistyblue | cloviamistyblue.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Maron | - | A31-maron | cloviamaroon | cloviamaroon.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Moss Green | - | A31-hijau | cloviamossgreen | cloviamossgreen.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Dusty Pink | - | A31-pink | cloviapink | cloviapink.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Dark Choco | - | A31-coktua | cloviadarkchoco | cloviadarkchoco.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Misty | - | A31-abu | cloviamisty | cloviamisty.jpg
+A31 | Clovia Ruffle Off Shoulder Long | Putih | - | A31-putih | cloviaputih | cloviaputih.jpg
+7013 | Carina Drawstring Pointed Hem Long | Maron | - | 7013-maron | carinamaroon | carinamaroon.jpg
+7013 | Carina Drawstring Pointed Hem Long | Abu | - | 7013-abu | carinaabu | carinaabu.jpg
+7013 | Carina Drawstring Pointed Hem Long | Hitam | - | 7013-hitam | carinahitam | carinahitam.jpg
+7013 | Carina Drawstring Pointed Hem Long | Khaki | - | 7013-khaki | carinakhaki | carinakhaki.jpg
+7013 | Carina Drawstring Pointed Hem Long | Salem | - | 7013-salem | carinasalem | carinasalem.jpg
+7013 | Carina Drawstring Pointed Hem Long | Coklat | - | 7013-coktua | carinacoklat | carinacoklat.jpg
+A13 | Divia Chest Cut Out Bolero | Misty | - | A13-abu | diviamisty | diviamisty.jpg
+A13 | Divia Chest Cut Out Bolero | Maroon | - | A13-marun | diviamaroon | diviamaroon.jpg
+A13 | Divia Chest Cut Out Bolero | Misty Blue | - | A13-biru | diviamistyblue | diviamistyblue.jpg
+A13 | Divia Chest Cut Out Bolero | Moss Green | - | A13-hijau | diviamossgreen | diviamossgreen.jpg
+A13 | Divia Chest Cut Out Bolero | Taro | - | A13-taro | diviataro | diviataro.jpg
+A13 | Divia Chest Cut Out Bolero | Hitam | - | A13-hitam | diviahitam | diviahitam.jpg
+A13 | Divia Chest Cut Out Bolero | Putih | - | A13-putih | diviaputih | diviaputih.jpg
+A13 | Divia Chest Cut Out Bolero | Dusty Pink | - | A13-pink | diviapink | diviapink.jpg
+A13 | Divia Chest Cut Out Bolero | Soft Brown | - | A13-coksu | diviasoftbrown | diviasoftbrown.jpg
+A13 | Divia Chest Cut Out Bolero | Dark Choco | - | A13-coktu | diviadarkchoco | diviadarkchoco.jpg
+6058 | Richelle Square Neck Tali Serut | Fuschia | - | 6058-fshcia | richellefuschia | richellefuschia.jpg
+6058 | Richelle Square Neck Tali Serut | Salem | - | 6058-salm | richellesalem | richellesalem.jpg
+6058 | Richelle Square Neck Tali Serut | Taro | - | 6058-taro | richelletaro | richelletaro.jpg
+6058 | Richelle Square Neck Tali Serut | Plum | - | 6058-plum | richelleplum | richelleplum.jpg
+6058 | Richelle Square Neck Tali Serut | Hitam | - | 6058-htm | richellehitam | richellehitam.jpg
+6058 | Richelle Square Neck Tali Serut | Kubus | - | 6058-kubus | richellekubus | richellekubus.jpg
+6058 | Richelle Square Neck Tali Serut | Navy | - | 6058-navy | richellenavy | richellenavy.jpg
+6058 | Richelle Square Neck Tali Serut | Merah | - | 6058-merah | richellemerah | richellemerah.jpg
+6058 | Richelle Square Neck Tali Serut | Abu Tua | - | 6058-abutua | richelleabutua | richelleabutua.jpg
+6058 | Richelle Square Neck Tali Serut | Lime | - | 6058-lime | richellelime | richellelime.jpg
+6058 | Richelle Square Neck Tali Serut | Putih | - | 6058-putih | richelleputih | richelleputih.jpg
+6058 | Richelle Square Neck Tali Serut | Army | - | 6058-army | richellearmy | richellearmy.jpg
+6058 | Richelle Square Neck Tali Serut | Lemon | - | 6058-lmon | richellelemon | richellelemon.jpg
+6058 | Richelle Square Neck Tali Serut | Marun | - | 6058-marn | richellemaroon | richellemaroon.jpg
+6058 | Richelle Square Neck Tali Serut | Cokelat | - | 6058-cklt | richellecoklat | richellecoklat.jpg
+jsa01 | Ayana Ribbed Collar Crop Top | Putih | - | jsa01-putih | ayanaputih | ayanaputih.jpg
+jsa01 | Ayana Ribbed Collar Crop Top | Cokelat Muda | - | jsa01-coksu | ayanacoklatmuda | ayanacoklatmuda.jpg
+jsa01 | Ayana Ribbed Collar Crop Top | Biru | - | jsa01-biru | ayanabiru | ayanabiru.jpg
+jsa01 | Ayana Ribbed Collar Crop Top | Hitam | - | jsa01-hitam | ayanahitam | ayanahitam.jpg
+A05 | Sonya Coquette Lace Neck Tie | Dusty Pink | - | A05-pink | sonyapink | sonyapink.jpg
+A05 | Sonya Coquette Lace Neck Tie | Soft Brown | - | A05-coksu | sonyasoftbrown | sonyasoftbrown.jpg
+A05 | Sonya Coquette Lace Neck Tie | Misty | - | A05-abu | sonyamisty | sonyamisty.jpg
+A05 | Sonya Coquette Lace Neck Tie | Sky Blue | - | A05-biru | sonyaskyblue | sonyaskyblue.jpg
+6071 | Akira One Shoulder Top Wanita | Fuschia | - | 6071-fchia | akirafuschia | akirafuschia.jpg
+6071 | Akira One Shoulder Top Wanita | Khaki | - | 6071-khaki | akirakhaki | akirakhaki.jpg
+6071 | Akira One Shoulder Top Wanita | Putih | - | 6071-putih | akiraputih | akiraputih.jpg
+6071 | Akira One Shoulder Top Wanita | Lemon | - | 6071-lemon | akiralemon | akiralemon.jpg
+6071 | Akira One Shoulder Top Wanita | Navy | - | 6071-navy | akiranavy | akiranavy.jpg
+6071 | Akira One Shoulder Top Wanita | Kubus | - | 6071-kubus | akirakubus | akirakubus.jpg
+6071 | Akira One Shoulder Top Wanita | Salem | - | 6071-salem | akirasalem | akirasalem.jpg
+6071 | Akira One Shoulder Top Wanita | Coklat | - | 6071-cklt | akiracoklat | akiracoklat.jpg
+6071 | Akira One Shoulder Top Wanita | Army | - | 6071-army | akiraarmy | akiraarmy.jpg
+6071 | Akira One Shoulder Top Wanita | Lime | - | 6071-lime | akiralime | akiralime.jpg
+6071 | Akira One Shoulder Top Wanita | Hitam | - | 6071-htm | akirahitam | akirahitam.jpg
+6071 | Akira One Shoulder Top Wanita | Merah | - | 6071-merah | akiramerah | akiramerah.jpg
+6071 | Akira One Shoulder Top Wanita | Denim | - | 6071-denim | akiradenim | akiradenim.jpg
+6071 | Akira One Shoulder Top Wanita | Marun | - | 6071-maron | akiramaroon | akiramaroon.jpg
+A17 | Celia Drawstring One Shoulder Top | Maron | - | A17-marun | celiamaroon | celiamaroon.jpg
+A17 | Celia Drawstring One Shoulder Top | Putih | - | A17-putih | celiaputih | celiaputih.jpg
+A17 | Celia Drawstring One Shoulder Top | Soft Brown | - | A17-coksu | celiasoftbrown | celiasoftbrown.jpg
+A17 | Celia Drawstring One Shoulder Top | Misty Blue | - | A17-biru | celiamistyblue | celiamistyblue.jpg
+A17 | Celia Drawstring One Shoulder Top | Moss Green | - | A17-hijau | celiamossgreen | celiamossgreen.jpg
+A17 | Celia Drawstring One Shoulder Top | Taro | - | A17-taro | celiataro | celiataro.jpg
+A17 | Celia Drawstring One Shoulder Top | Misty | - | A17-abu | celiamisty | celiamisty.jpg
+A17 | Celia Drawstring One Shoulder Top | Dusty Pink | - | A17-pink | celiapink | celiapink.jpg
+A17 | Celia Drawstring One Shoulder Top | Hitam | - | A17-hitam | celiahitam | celiahitam.jpg
+A17 | Celia Drawstring One Shoulder Top | Dark Choco | - | A17-coklat tua | celiadarkchoco | celiadarkchoco.jpg
+6052 | Kaluna Square Neck Ruched Crop | Army | - | 6052-army | kalunaarmy | kalunaarmy.jpg
+6052 | Kaluna Square Neck Ruched Crop | Kubus | - | 6052-kubus | kalunakubus | kalunakubus.jpg
+6052 | Kaluna Square Neck Ruched Crop | Fuschia | - | 6052-fuschia | kalunafuschia | kalunafuschia.jpg
+6052 | Kaluna Square Neck Ruched Crop | Navy | - | 6052-navy | kalunanavy | kalunanavy.jpg
+6052 | Kaluna Square Neck Ruched Crop | Lime | - | 6052-lime | kalunalime | kalunalime.jpg
+6052 | Kaluna Square Neck Ruched Crop | Putih | - | 6052-pth | kalunaputih | kalunaputih.jpg
+6052 | Kaluna Square Neck Ruched Crop | Maron | - | 6052-maron | kalunamaroon | kalunamaroon.jpg
+6052 | Kaluna Square Neck Ruched Crop | Plum | - | 6052-plum | kalunaplum | kalunaplum.jpg
+6052 | Kaluna Square Neck Ruched Crop | Abu Tua | - | 6052-abu | kalunaabutua | kalunaabutua.jpg
+6052 | Kaluna Square Neck Ruched Crop | Hitam | - | 6052-hitam | kalunahitam | kalunahitam.jpg
+6052 | Kaluna Square Neck Ruched Crop | Salem | - | 6052-salem | kalunasalem | kalunasalem.jpg
+6052 | Kaluna Square Neck Ruched Crop | Denim | - | 6052-denim | kalunadenim | kalunadenim.jpg
+6052 | Kaluna Square Neck Ruched Crop | Lemon | - | 6052-lemon | kalunalemon | kalunalemon.jpg
+6052 | Kaluna Square Neck Ruched Crop | Cokelat | - | 6052-coklat | kalunacoklat | kalunacoklat.jpg
+6052 | Kaluna Square Neck Ruched Crop | Merah | - | 6052-merah | kalunamerah | kalunamerah.jpg
+6052 | Kaluna Square Neck Ruched Crop | Taro | - | 6052-taro | kalunataro | kalunataro.jpg
+6052 | Kaluna Square Neck Ruched Crop | Khaki | - | 6052-khaki | kalunakhaki | kalunakhaki.jpg
+A22 | Daisy Bow Halter Long Sleeve | Taro | - | A22-taro | daisytaro | daisytaro.jpg
+A22 | Daisy Bow Halter Long Sleeve | Dark Choco | - | A22-coktua | daisydarkchoco | daisydarkchoco.jpg
+A22 | Daisy Bow Halter Long Sleeve | Navy | - | A22-navy | daisynavy | daisynavy.jpg
+A22 | Daisy Bow Halter Long Sleeve | Dusty Pink | - | A22-pink | daisypink | daisypink.jpg
+A22 | Daisy Bow Halter Long Sleeve | Baby Pink Polkadot | - | A22-polka | daisypinkdot | daisypinkdot.jpg
+A22 | Daisy Bow Halter Long Sleeve | Soft brown | - | A22-coksu | daisysoftbrown | daisysoftbrown.jpg
+A22 | Daisy Bow Halter Long Sleeve | Ash Grey | - | A22-abumuda | daisyashgrey | daisyashgrey.jpg
+A22 | Daisy Bow Halter Long Sleeve | Baby Blue | - | A22-birumuda | daisybabyblue | daisybabyblue.jpg
+A22 | Daisy Bow Halter Long Sleeve | Hitam Polkadot | - | A22-polka | daisyhitamdot | daisyhitamdot.jpg
+A22 | Daisy Bow Halter Long Sleeve | Putih | - | A22-putih | daisyputih | daisyputih.jpg
+A22 | Daisy Bow Halter Long Sleeve | Maroon | - | A22-marun | daisymaroon | daisymaroon.jpg
+A22 | Daisy Bow Halter Long Sleeve | Misty | - | A22-abu | daisymisty | daisymisty.jpg
+A22 | Daisy Bow Halter Long Sleeve | Hitam | - | A22-hitam | daisyhitam | daisyhitam.jpg
+A22 | Daisy Bow Halter Long Sleeve | Putih Polkadot | - | A22-polka | daisyputihdot | daisyputihdot.jpg
+A22 | Daisy Bow Halter Long Sleeve | Misty blue | - | A22-biru | daisymistyblue | daisymistyblue.jpg
+A22 | Daisy Bow Halter Long Sleeve | Moss green | - | A22-hijau | daisymossgreen | daisymossgreen.jpg
+A22 | Daisy Bow Halter Long Sleeve | Baby Blue Polkadot | - | A22-polka | daisybluedot | daisybluedot.jpg
+A39 | Noora Ruffle Off Shoulder Button | Dusty Pink | - | A39-pink | noorapink | noorapink.jpg
+A39 | Noora Ruffle Off Shoulder Button | Hitam | - | A39-hitam | noorahitam | noorahitam.jpg
+A39 | Noora Ruffle Off Shoulder Button | Dark Choco | - | A39-coktu | nooradarkchoco | nooradarkchoco.jpg
+A39 | Noora Ruffle Off Shoulder Button | Maroon | - | A39-marun | nooramaroon | nooramaroon.jpg
+A39 | Noora Ruffle Off Shoulder Button | Putih | - | A39-putih | nooraputih | nooraputih.jpg
+A39 | Noora Ruffle Off Shoulder Button | Navy | - | A39-navy | nooranavy | nooranavy.jpg
+A09 | Stella Coquette Lace Bow Knit | Maron | - | A09-maron | stellamaroon | stellamaroon.jpg
+A09 | Stella Coquette Lace Bow Knit | Putih Polkadot | - | A09--polka | stellaputihdot | stellaputihdot.jpg
+A09 | Stella Coquette Lace Bow Knit | Soft Brown | - | A09-coksu | stellasoftbrown | stellasoftbrown.jpg
+A09 | Stella Coquette Lace Bow Knit | Dusty Pink | - | A09-pink | stellapink | stellapink.jpg
+A09 | Stella Coquette Lace Bow Knit | Baby Pink Polkadot | - | A09--polka | stellapinkdot | stellapinkdot.jpg
+A09 | Stella Coquette Lace Bow Knit | Hitam | - | A09-hitam | stellahitam | stellahitam.jpg
+A09 | Stella Coquette Lace Bow Knit | Ashgray | - | A09-ashgray | stellaashgrey | stellaashgrey.jpg
+A09 | Stella Coquette Lace Bow Knit | Coklat | - | A09-coktu | stellacoklat | stellacoklat.jpg
+A09 | Stella Coquette Lace Bow Knit | Hitam Polkadot | - | A09-polka | stellahitamdot | stellahitamdot.jpg
+A09 | Stella Coquette Lace Bow Knit | Sky Blue Polkadot | - | A09--polka | stellaskybluedot | stellaskybluedot.jpg
+A09 | Stella Coquette Lace Bow Knit | Misty | - | A09-abu | stellamisty | stellamisty.jpg
+A09 | Stella Coquette Lace Bow Knit | Sky Blue | - | A09-biru | stellaskyblue | stellaskyblue.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Salem | - | 6042-salem | qaylasalem | qaylasalem.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Dusty Pink | - | 6042-dustypink | qaylapink | qaylapink.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Navy | - | 6042-navy | qaylanavy | qaylanavy.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Biru | - | 6042-biru | qaylabiru | qaylabiru.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Fuschia | - | 6042-fuschia | qaylafuschia | qaylafuschia.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Kubus | - | 6042-kubus | qaylakubus | qaylakubus.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Cokelat | - | 6042-coklat | qaylacoklat | qaylacoklat.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Army | - | 6042-army | qaylaarmy | qaylaarmy.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Putih | - | 6042-putih | qaylaputih | qaylaputih.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Maron | - | 6042-maron | qaylamaroon | qaylamaroon.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Taro | - | 6042-taro | qaylataro | qaylataro.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Abu Tua | - | 6042-abutua | qaylaabutua | qaylaabutua.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Khaki | - | 6042-khaki | qaylakhaki | qaylakhaki.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Hitam | - | 6042-hitam | qaylahitam | qaylahitam.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Merah | - | 6042-merah | qaylamerah | qaylamerah.jpg
+6042 | Qayla Side Drawstring/Tali Serut Samping | Lemon | - | 6042-lemon | qaylalemon | qaylalemon.jpg
+A37 | Cavita Mock Neck Cap Sleeve | Moss Green | - | A37-hijau | cavitamossgreen | cavitamossgreen.jpg
+A37 | Cavita Mock Neck Cap Sleeve | Taro | - | A37-taro | cavitataro | cavitataro.jpg
+A37 | Cavita Mock Neck Cap Sleeve | Misty | - | A37-abu | cavitamisty | cavitamisty.jpg
+A37 | Cavita Mock Neck Cap Sleeve | Soft Brown | - | A37-coksu | cavitasoftbrown | cavitasoftbrown.jpg
+A37 | Cavita Mock Neck Cap Sleeve | Dusty Pink | - | A37-pink | cavitapink | cavitapink.jpg
+A37 | Cavita Mock Neck Cap Sleeve | Misty Blue | - | A37-biru | cavitamistyblue | cavitamistyblue.jpg
+A34 | Delia Asymmetrical Shoulder Knit Top | Misty | - | A34-abu | deliamisty | deliamisty.jpg
+A34 | Delia Asymmetrical Shoulder Knit Top | Soft Brown | - | A34-coksu | deliasoftbrown | deliasoftbrown.jpg
+A34 | Delia Asymmetrical Shoulder Knit Top | Dusty Pink | - | A34-pink | deliapink | deliapink.jpg
+A34 | Delia Asymmetrical Shoulder Knit Top | Misty Blue | - | A34-biru | deliamistyblue | deliamistyblue.jpg
+A34 | Delia Asymmetrical Shoulder Knit Top | Moss Green | - | A34-hijau | deliamossgreen | deliamossgreen.jpg
+A34 | Delia Asymmetrical Shoulder Knit Top | Taro | - | A34-taro | deliataro | deliataro.jpg
+A25 | Chani Twist Off Shoulder Top | Sage Olive | - | A25-sage | chanisageolive | chanisageolive.jpg
+A25 | Chani Twist Off Shoulder Top | Baby Blue | - | A25-birmud | chanibabyblue | chanibabyblue.jpg
+A25 | Chani Twist Off Shoulder Top | Moss Green | - | A25-hijau | chanimossgreen | chanimossgreen.jpg
+A25 | Chani Twist Off Shoulder Top | Ash Grey | - | A25-ashgrey | chaniashgrey | chaniashgrey.jpg
+A25 | Chani Twist Off Shoulder Top | Soft Brown | - | A25-coksu | chanisoftbrown | chanisoftbrown.jpg
+A25 | Chani Twist Off Shoulder Top | Misty Blue | - | A25-biru | chanimistyblue | chanimistyblue.jpg
+A25 | Chani Twist Off Shoulder Top | Taro | - | A25-taro | chanitaro | chanitaro.jpg
+A25 | Chani Twist Off Shoulder Top | Misty | - | A25-abu | chanimisty | chanimisty.jpg
+A25 | Chani Twist Off Shoulder Top | Dusty Tosca | - | A25-tosca | chanidustytosca | chanidustytosca.jpg
+A25 | Chani Twist Off Shoulder Top | Htam | - | A25-hitam | chanihitam | chanihitam.jpg
+A25 | Chani Twist Off Shoulder Top | Dusty Pink | - | A25-pink | chanipink | chanipink.jpg
+A25 | Chani Twist Off Shoulder Top | Putih | - | A25-putih | chaniputih | chaniputih.jpg
+A25 | Chani Twist Off Shoulder Top | Dark Choco | - | A25-coktua | chanidarkchoco | chanidarkchoco.jpg
+A25 | Chani Twist Off Shoulder Top | Maron | - | A25-marun | chanimaroon | chanimaroon.jpg
+7024 | Elody Kaos Wanita Lengan Panjang | Khaki | - | 7024-khaki | elodykhaki | elodykhaki.jpg
+7024 | Elody Kaos Wanita Lengan Panjang | Cokelat | - | 7024-coklat | elodycoklat | elodycoklat.jpg
+7024 | Elody Kaos Wanita Lengan Panjang | Maron | - | 7024-maron | elodymaroon | elodymaroon.jpg
+7024 | Elody Kaos Wanita Lengan Panjang | Hitam | - | 7024-hitam | elodyhitam | elodyhitam.jpg
+7024 | Elody Kaos Wanita Lengan Panjang | Abu Tua | - | 7024-abu | elodyabutua | elodyabutua.jpg
+7024 | Elody Kaos Wanita Lengan Panjang | Salem | - | 7024-salem | elodysalem | elodysalem.jpg
+A18 | Cavia 2 In 1 Knit | Dusty Pink | - | A18-pink | caviapink | caviapink.jpg
+A18 | Cavia 2 In 1 Knit | Misty Blue | - | A18-biru | caviamistyblue | caviamistyblue.jpg
+A18 | Cavia 2 In 1 Knit | Moss Green | - | A18-hijau | caviamossgreen | caviamossgreen.jpg
+A18 | Cavia 2 In 1 Knit | Taro | - | A18-taro | caviataro | caviataro.jpg
+A18 | Cavia 2 In 1 Knit | Misty | - | A18-abu | caviamisty | caviamisty.jpg
+A18 | Cavia 2 In 1 Knit | Soft Brown | - | A18-coksu | caviasoftbrown | caviasoftbrown.jpg
+A14 | Diffa Ruched Keyhole Halter Top | Soft Brown | - | A14-coksu | diffasoftbrown | diffasoftbrown.jpg
+A14 | Diffa Ruched Keyhole Halter Top | Dusty Pink | - | A14-pink | diffapink | diffapink.jpg
+A14 | Diffa Ruched Keyhole Halter Top | Misty Blue | - | A14-biru | diffamistyblue | diffamistyblue.jpg
+A14 | Diffa Ruched Keyhole Halter Top | Moss Green | - | A14-hijau | diffamossgreen | diffamossgreen.jpg
+A14 | Diffa Ruched Keyhole Halter Top | Taro | - | A14-taro | diffataro | diffataro.jpg
+A14 | Diffa Ruched Keyhole Halter Top | Misty | - | A14-abu | diffamisty | diffamisty.jpg
+7010 | Rhea V-Neck Collar Oval Hem | Hitam | S/M/L | 7010 | rheahitam | rheahitam.jpg
+7010 | Rhea V-Neck Collar Oval Hem | Maron | M/S/L | 7010 | rheamaroon | rheamaroon.jpg
+7010 | Rhea V-Neck Collar Oval Hem | Abu Tua | M/S/L | 7010 | rheaabutua | rheaabutua.jpg
+7010 | Rhea V-Neck Collar Oval Hem | Salem | L/S/M | 7010 | rheasalem | rheasalem.jpg
+7010 | Rhea V-Neck Collar Oval Hem | Cokelat Tua | L/M/S | 7010 | rheacoklattua | rheacoklattua.jpg
+7010 | Rhea V-Neck Collar Oval Hem | Khaki | M/S/L | 7010 | rheakhaki | rheakhaki.jpg
+A11 | Davina Bow Strap Off Shoulder | Dusty Pink | - | A11-pink | davinapink | davinapink.jpg
+A11 | Davina Bow Strap Off Shoulder | Misty Blue | - | A11-biru | davinamistyblue | davinamistyblue.jpg
+A11 | Davina Bow Strap Off Shoulder | Moss Green | - | A11-hijau | davinamossgreen | davinamossgreen.jpg
+A11 | Davina Bow Strap Off Shoulder | Taro | - | A11-taro | davinataro | davinataro.jpg
+A11 | Davina Bow Strap Off Shoulder | Misty | - | A11-abu | davinamisty | davinamisty.jpg
+A11 | Davina Bow Strap Off Shoulder | Soft Brown | - | A11-coksu | davinasoftbrown | davinasoftbrown.jpg
+A40 | Ayla One Shoulder Pointed Hem | Dusty Pink | - | A40-pink | aylapink | aylapink.jpg
+A40 | Ayla One Shoulder Pointed Hem | Misty Blue | - | A40-biru | aylamistyblue | aylamistyblue.jpg
+A40 | Ayla One Shoulder Pointed Hem | Moss Green | - | A40-hijau | aylamossgreen | aylamossgreen.jpg
+A40 | Ayla One Shoulder Pointed Hem | Taro | - | A40-ungu | aylataro | aylataro.jpg
+A40 | Ayla One Shoulder Pointed Hem | Misty | - | A40-abu | aylamisty | aylamisty.jpg
+A40 | Ayla One Shoulder Pointed Hem | Soft Brown | - | A40-coksu | aylasoftbrown | aylasoftbrown.jpg
+A07 | Sarah Coquette Lace Tie Off | Sky Blue | - | A07-biru | sarahskyblue | sarahskyblue.jpg
+A07 | Sarah Coquette Lace Tie Off | Dusty Pink | - | A07-pink | sarahpink | sarahpink.jpg
+A07 | Sarah Coquette Lace Tie Off | Soft Brown | - | A07-coksu | sarahsoftbrown | sarahsoftbrown.jpg
+A07 | Sarah Coquette Lace Tie Off | Misty | - | A07-abu | sarahmisty | sarahmisty.jpg
+A02 | Sierra Coquette Lace Bow Ruched | Dusty Pink | - | A02-pink | sierrapink | sierrapink.jpg
+A02 | Sierra Coquette Lace Bow Ruched | Sky Blue | - | A02-biru | sierraskyblue | sierraskyblue.jpg
+A02 | Sierra Coquette Lace Bow Ruched | Soft Brown | - | A02-coksu | sierrasoftbrown | sierrasoftbrown.jpg
+A02 | Sierra Coquette Lace Bow Ruched | Misty | - | A02-abu | sierramisty | sierramisty.jpg
+A21 | Cacha Coquette Lace Bow 2 | Putih | - | A21-putih | cachaputih | cachaputih.jpg
+A21 | Cacha Coquette Lace Bow 2 | Taro | - | A21-taro | cachataro | cachataro.jpg
+A21 | Cacha Coquette Lace Bow 2 | Dark Choco | - | A21-coktua | cachadarkchoco | cachadarkchoco.jpg
+A21 | Cacha Coquette Lace Bow 2 | Misty Blue | - | A21-biru | cachamistyblue | cachamistyblue.jpg
+A21 | Cacha Coquette Lace Bow 2 | Misty | - | A21-abu | cachamisty | cachamisty.jpg
+A21 | Cacha Coquette Lace Bow 2 | Soft Brown | - | A21-coksu | cachasoftbrown | cachasoftbrown.jpg
+A21 | Cacha Coquette Lace Bow 2 | Dusty Pink | - | A21-pink | cachapink | cachapink.jpg
+A21 | Cacha Coquette Lace Bow 2 | Moss Green | - | A21-hijau | cachamossgreen | cachamossgreen.jpg
+A21 | Cacha Coquette Lace Bow 2 | Hitam | - | A21-hitam | cachahitam | cachahitam.jpg
+A21 | Cacha Coquette Lace Bow 2 | Maroon | - | A21-marun | cachamaroon | cachamaroon.jpg
+A43 | Noire Gold Ring One Shoulder | Putih | - | A43-putih | noireputih | noireputih.jpg
+A43 | Noire Gold Ring One Shoulder | Dark Choco | - | A43-coktua | noiredarkchoco | noiredarkchoco.jpg
+A43 | Noire Gold Ring One Shoulder | Baby Blue | - | A43-birmuda | noirebabyblue | noirebabyblue.jpg
+A43 | Noire Gold Ring One Shoulder | Navy | - | A43-navy | noirenavy | noirenavy.jpg
+A43 | Noire Gold Ring One Shoulder | Maron | - | A43-maron | noiremaroon | noiremaroon.jpg
+A43 | Noire Gold Ring One Shoulder | Soft Brown | - | A43-coksu | noiresoftbrown | noiresoftbrown.jpg
+A43 | Noire Gold Ring One Shoulder | Hitam | - | A43-hitam | noirehitam | noirehitam.jpg
+A43 | Noire Gold Ring One Shoulder | Dusty Pink | - | A43-pink | noirepink | noirepink.jpg
+A43 | Noire Gold Ring One Shoulder | Misty | - | A43-abu | noiremisty | noiremisty.jpg
+A06 | Sasha Coquette Triple Bow Lace | Dusty Pink | - | A06-pink | sashapink | sashapink.jpg
+A06 | Sasha Coquette Triple Bow Lace | Soft Brown | - | A06-coksu | sashasoftbrown | sashasoftbrown.jpg
+A06 | Sasha Coquette Triple Bow Lace | Misty | - | A06-abu | sashamisty | sashamisty.jpg
+A06 | Sasha Coquette Triple Bow Lace | Sky Blue | - | A06-biru | sashaskyblue | sashaskyblue.jpg
+A38 | Virly Ruched Waist V-Neck Cardigan | Putih | - | A38-putih | virlyputih | virlyputih.jpg
+A38 | Virly Ruched Waist V-Neck Cardigan | Hitam | - | A38-hitam | virlyhitam | virlyhitam.jpg
+A38 | Virly Ruched Waist V-Neck Cardigan | Maroon | - | A38-marun | virlymaroon | virlymaroon.jpg
+A19 | Cindy Button Detail Draped One | Soft Brown | - | A19-coksu | cindysoftbrown | cindysoftbrown.jpg
+A19 | Cindy Button Detail Draped One | Dusty Pink | - | A19-pink | cindypink | cindypink.jpg
+A19 | Cindy Button Detail Draped One | Misty Blue | - | A19-biru | cindymistyblue | cindymistyblue.jpg
+A19 | Cindy Button Detail Draped One | Moss Green | - | A19-hijau | cindymossgreen | cindymossgreen.jpg
+A19 | Cindy Button Detail Draped One | Baby blue | - | A19-birmud | cindybabyblue | cindybabyblue.jpg
+A19 | Cindy Button Detail Draped One | Taro | - | A19-taro | cindytaro | cindytaro.jpg
+A19 | Cindy Button Detail Draped One | Misty | - | A19-abu | cindymisty | cindymisty.jpg
+A24 | Cecil Bow Tie Strap Off | Misty Blue | - | A24-biru | cecilmistyblue | cecilmistyblue.jpg
+A24 | Cecil Bow Tie Strap Off | Moss Green | - | A24-hijau | cecilmossgreen | cecilmossgreen.jpg
+A24 | Cecil Bow Tie Strap Off | Taro | - | A24-taro | ceciltaro | ceciltaro.jpg
+A24 | Cecil Bow Tie Strap Off | Misty | - | A24-misty | cecilmisty | cecilmisty.jpg
+A24 | Cecil Bow Tie Strap Off | Soft Brown | - | A24-coksu | cecilsoftbrown | cecilsoftbrown.jpg
+A24 | Cecil Bow Tie Strap Off | Dusty Pink | - | A24-pink | cecilpink | cecilpink.jpg
+A16 | Cynthia Square Neck Pointed Hem | Misty Blue | - | A16-biru | cynthiamistyblue | cynthiamistyblue.jpg
+A16 | Cynthia Square Neck Pointed Hem | Moss Green | - | A16-hijau | cynthiamossgreen | cynthiamossgreen.jpg
+A16 | Cynthia Square Neck Pointed Hem | Taro | - | A16-taro | cynthiataro | cynthiataro.jpg
+A16 | Cynthia Square Neck Pointed Hem | Misty | - | A16-abu | cynthiamisty | cynthiamisty.jpg
+A16 | Cynthia Square Neck Pointed Hem | Soft Brown | - | A16-coksu | cynthiasoftbrown | cynthiasoftbrown.jpg
+A16 | Cynthia Square Neck Pointed Hem | Dusty Pink | - | A16-pink | cynthiapink | cynthiapink.jpg
+A03 | Sally Coquette Multiway Lace Bow | Soft Brown | - | A03-coksu | sallysoftbrown | sallysoftbrown.jpg
+A03 | Sally Coquette Multiway Lace Bow | Misty | - | A03-abu | sallymisty | sallymisty.jpg
+A03 | Sally Coquette Multiway Lace Bow | Sky Blue | - | A03-biru | sallyskyblue | sallyskyblue.jpg
+A03 | Sally Coquette Multiway Lace Bow | Dusty Pink | - | A03-pink | sallypink | sallypink.jpg
+A28 | Tiara One Shoulder Pointed Hem | Maron | - | A28-maron | tiaramaroon | tiaramaroon.jpg
+A28 | Tiara One Shoulder Pointed Hem | Moss Green | - | A28-hijau | tiaramossgreen | tiaramossgreen.jpg
+A28 | Tiara One Shoulder Pointed Hem | Dusty Pink | - | A28-pink | tiarapink | tiarapink.jpg
+A28 | Tiara One Shoulder Pointed Hem | Hitam | - | A28-hitam | tiarahitam | tiarahitam.jpg
+A28 | Tiara One Shoulder Pointed Hem | Soft Brown | - | A28-coksu | tiarasoftbrown | tiarasoftbrown.jpg
+A28 | Tiara One Shoulder Pointed Hem | Misty | - | A28-abu | tiaramisty | tiaramisty.jpg
+A28 | Tiara One Shoulder Pointed Hem | Taro | - | A28-taro | tiarataro | tiarataro.jpg
+A28 | Tiara One Shoulder Pointed Hem | Misty Blue | - | A28-biru | tiaramistyblue | tiaramistyblue.jpg
+A28 | Tiara One Shoulder Pointed Hem | Dark Choco | - | A28-coktua | tiaradarkchoco | tiaradarkchoco.jpg
+A28 | Tiara One Shoulder Pointed Hem | Putih | - | A28-putih | tiaraputih | tiaraputih.jpg
+A01 | Stevy Lace Bow Knit Top | Tocsa | M/L/XL | A01 | stevytosca | stevytosca.jpg
+A01 | Stevy Lace Bow Knit Top | Hitam | L/M/XL | A01 | stevyhitam | stevyhitam.jpg
+A01 | Stevy Lace Bow Knit Top | Misty | XL/M/L | A01 | stevymisty | stevymisty.jpg
+A01 | Stevy Lace Bow Knit Top | Maron | M/XL/L | A01 | stevymaroon | stevymaroon.jpg
+A01 | Stevy Lace Bow Knit Top | Ash grey | XL/M/L | A01 | stevyashgrey | stevyashgrey.jpg
+A01 | Stevy Lace Bow Knit Top | Cokelat | M/XL/L | A01 | stevycoklat | stevycoklat.jpg
+A01 | Stevy Lace Bow Knit Top | Dusty Pink | M/XL/L | A01 | stevypink | stevypink.jpg
+A01 | Stevy Lace Bow Knit Top | Soft Brown | L/M/XL | A01 | stevysoftbrown | stevysoftbrown.jpg
+A01 | Stevy Lace Bow Knit Top | Sky Blue | L/M/XL | A01 | stevyskyblue | stevyskyblue.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Taro | - | A29-taro | clairetaro | clairetaro.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Hitam | - | A29-hitam | clairehitam | clairehitam.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Misty Blue | - | A29-biru | clairemistyblue | clairemistyblue.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Soft Brown | - | A29-coksu | clairesoftbrown | clairesoftbrown.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Misty | - | A29-abu | clairemisty | clairemisty.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Dark Choco | - | A29-coktua | clairedarkchoco | clairedarkchoco.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Putih | - | A29-putih | claireputih | claireputih.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Dusty Pink | - | A29-pink | clairepink | clairepink.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Moss Green | - | A29-hijau | clairemossgreen | clairemossgreen.jpg
+A29 | Claire One Shoulder Asymmetric Knit | Maron | - | A29-maron | clairemaroon | clairemaroon.jpg
+7017 | Lovely Collar Crop Top Bordir | Cokelat Tua | S/M/L | 7017 | lovelycoklattua | lovelycoklattua.jpg
+7017 | Lovely Collar Crop Top Bordir | Abu Tua | S/L/M | 7017 | lovelyabutua | lovelyabutua.jpg
+7017 | Lovely Collar Crop Top Bordir | Salem | S/M/L | 7017 | lovelysalem | lovelysalem.jpg
+7017 | Lovely Collar Crop Top Bordir | Maroon | S/L/M | 7017 | lovelymaroon | lovelymaroon.jpg
+7017 | Lovely Collar Crop Top Bordir | Khaki | M/S/L | 7017 | lovelykhaki | lovelykhaki.jpg
+7017 | Lovely Collar Crop Top Bordir | Hitam | S/M/L | 7017 | lovelyhitam | lovelyhitam.jpg
+S01 | Luvita Ribbed Knit Two Set | Cream | - | S01-cream | luvitacream | luvitacream.jpg
+S01 | Luvita Ribbed Knit Two Set | Hitam | - | S01-hitam | luvitahitam | luvitahitam.jpg
+S01 | Luvita Ribbed Knit Two Set | Biru | - | S01-biru | luvitabiru | luvitabiru.jpg
+S01 | Luvita Ribbed Knit Two Set | Hijau | - | S01-hijau | luvitahijau | luvitahijau.jpg
