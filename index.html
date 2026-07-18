@@ -36,6 +36,7 @@
   @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;} *,*::before,*::after{animation:none!important;transition:none!important;}}
   body{font-family:var(--sans);background:var(--paper);color:var(--ink);min-height:100dvh;-webkit-font-smoothing:antialiased;padding-bottom:76px;}
   a{color:inherit;} button{font-family:var(--sans);cursor:pointer;}
+  a,button,input,select,label{touch-action:manipulation;}
   :focus-visible{outline:2px solid var(--flame);outline-offset:2px;}
 
   .ticks{height:14px;background:
@@ -55,8 +56,12 @@
   .bagN.show{display:inline-flex;}
   .searchband{max-width:1100px;margin:0 auto;padding:0 16px 12px;display:none;}
   .searchband.open{display:block;}
-  .searchband input{width:100%;height:42px;border:1px solid var(--ink);border-radius:2px;background:var(--card);padding:0 14px;font-size:.95rem;font-family:var(--sans);color:var(--ink);}
+  .swrap{position:relative;}
+  .searchband input{width:100%;height:44px;border:1px solid var(--ink);border-radius:2px;background:var(--card);padding:0 44px 0 14px;font-size:16px;font-family:var(--sans);color:var(--ink);appearance:none;}
   .searchband input::placeholder{color:var(--stone);}
+  .searchband input::-webkit-search-cancel-button{display:none;}
+  .sclear{position:absolute;right:7px;top:50%;transform:translateY(-50%);width:30px;height:30px;border:none;border-radius:50%;background:var(--sand);color:var(--ink);font-size:1.05rem;line-height:1;display:none;place-items:center;}
+  .sclear.show{display:grid;}
 
   /* voucher notice for new visitors */
   .notice{display:none;background:var(--flame);color:var(--paper);}
@@ -80,7 +85,7 @@
   .btn.wa:hover{background:#1eb457;border-color:#1eb457;}
   .btn svg{width:16px;height:16px;}
 
-  .filters{position:sticky;top:65px;z-index:40;background:var(--paper);border-bottom:1px solid var(--hair);}
+  .filters{position:sticky;top:var(--hh,65px);z-index:40;background:var(--paper);border-bottom:1px solid var(--hair);transition:top .2s;}
   .tabs{max-width:1100px;margin:0 auto;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;padding:0 12px;scroll-behavior:smooth;}
   .tabs::-webkit-scrollbar{display:none;}
   .tab{flex:0 0 auto;background:none;border:none;border-bottom:3px solid transparent;padding:13px 12px 11px;font-size:.74rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--stone);}
@@ -157,9 +162,17 @@
   .rs-links a{font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;border:1px solid var(--ink);padding:10px 14px;border-radius:2px;}
   .rs-links a.wa{background:var(--wa);border-color:var(--wa);color:#06351a;}
 
-  footer{max-width:1100px;margin:26px auto 0;padding:22px 16px 30px;border-top:1px solid var(--hair);
-    display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;font-size:.72rem;color:var(--stone);letter-spacing:.14em;text-transform:uppercase;}
-  footer a{color:var(--flame);text-decoration:none;font-weight:600;}
+  footer{max-width:1100px;margin:26px auto 0;padding:30px 16px 34px;border-top:1px solid var(--hair);font-size:.78rem;color:var(--stone);}
+  .ft-grid{display:grid;grid-template-columns:1fr;gap:24px;}
+  @media(min-width:720px){.ft-grid{grid-template-columns:1.6fr 1fr 1.2fr;gap:28px;}}
+  footer .brand{font-size:1.02rem;}
+  .ft-brand p{line-height:1.65;margin-top:10px;font-size:.76rem;}
+  .ft-pay{margin-top:12px;color:var(--ink);background:var(--card);border:1px dashed var(--flame);border-radius:10px;padding:9px 12px;font-size:.72rem;line-height:1.5;}
+  .ft-pay b{color:var(--flame);}
+  .ft-col>b{display:block;font-size:.64rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);margin-bottom:9px;}
+  .ft-col a{display:block;padding:6px 0;color:var(--stone);text-decoration:none;}
+  .ft-col a:hover{color:var(--flame);}
+  .ft-bottom{display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:space-between;margin-top:26px;padding-top:14px;border-top:1px solid var(--hair);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;}
 
   .bagbar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--ink);color:var(--paper);display:none;align-items:center;justify-content:space-between;gap:10px;padding:13px 18px;}
   .bagbar.show{display:flex;}
@@ -316,7 +329,7 @@
   .best-body b{display:block;font-family:var(--serif);font-size:1.08rem;font-weight:500;line-height:1.2;}
   .best-body small{display:block;color:var(--stone);margin-top:4px;}
   @media(max-width:720px){.best-track{grid-auto-columns:72%}.section-top{align-items:flex-start;flex-direction:column}.section-top p{text-align:left}}
-  .filters{top:65px;background:rgba(247,242,237,.94);backdrop-filter:blur(12px);}
+  .filters{top:var(--hh,65px);background:rgba(247,242,237,.94);backdrop-filter:blur(12px);}
   .catalog{max-width:1240px;gap:16px;}
   @media(min-width:1150px){.catalog{grid-template-columns:repeat(4,1fr);}}
   .count{max-width:1240px;}
@@ -339,18 +352,18 @@
   .letter-copy p{color:rgba(255,255,255,.68);line-height:1.65;max-width:520px;}
   .envelope-game{position:relative;z-index:1;background:var(--card);color:var(--ink);border-radius:22px;padding:22px;min-height:390px;display:flex;flex-direction:column;justify-content:center;overflow:hidden;}
   .envelope{width:min(100%,380px);height:210px;margin:72px auto 18px;position:relative;background:#efc9c5;border-radius:8px 8px 16px 16px;box-shadow:0 18px 34px rgba(0,0,0,.17);transition:transform .45s,opacity .45s;perspective:800px;}
-  .envelope::before{content:"";position:absolute;inset:0;clip-path:polygon(0 0,50% 56%,100% 0);background:#f5d9d6;transform-origin:top;transition:transform .55s;}
+  .envelope::before{content:"";position:absolute;inset:0;z-index:1;clip-path:polygon(0 0,50% 56%,100% 0);background:#f5d9d6;transform-origin:top;transition:transform .55s;}
   .envelope::after{content:"";position:absolute;inset:0;clip-path:polygon(0 100%,50% 48%,100% 100%);background:#dca9a5;}
   .envelope.open::before{transform:rotateX(178deg);z-index:0;}
-  .env-letter{position:absolute;z-index:0;left:7%;right:7%;bottom:12px;height:170px;background:#fffdf9;border:1px solid var(--hair);border-radius:5px;padding:26px 14px 12px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;transition:transform .7s cubic-bezier(.2,.8,.2,1),opacity .3s;}
+  .env-letter{position:absolute;z-index:0;left:7%;right:7%;bottom:12px;height:170px;background:#fffdf9;border:1px solid var(--hair);border-radius:5px;padding:26px 14px 12px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;opacity:0;visibility:hidden;transform:translateY(14px);transition:transform .7s cubic-bezier(.2,.8,.2,1),opacity .35s,visibility 0s .35s;}
   .env-letter small{font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--stone);}
   .env-letter strong{font-family:var(--serif);font-size:1.3rem;font-weight:500;color:var(--flame);}
   .env-letter span{font-size:.67rem;color:var(--stone);line-height:1.4;}
-  .envelope.open .env-letter{z-index:2;transform:translateY(-126px);}
+  .envelope.open .env-letter{z-index:2;transform:translateY(-126px);opacity:1;visibility:visible;transition:transform .7s cubic-bezier(.2,.8,.2,1) .25s,opacity .3s .25s,visibility 0s;}
   .env-seal{position:absolute;z-index:3;left:50%;top:44%;transform:translate(-50%,-50%);width:62px;height:62px;border-radius:50%;background:var(--flame);color:#fff;display:grid;place-items:center;font-size:1.45rem;box-shadow:0 5px 14px rgba(90,24,32,.25);}
   .envelope.ruined{animation:envShake .38s linear 2;filter:saturate(.55);}
   .envelope.ruined::after{clip-path:polygon(0 100%,0 0,44% 45%,39% 59%,57% 52%,100% 0,100% 100%);}
-  .envelope.ruined .env-letter{transform:translateY(-22px) rotate(7deg);opacity:.38;}
+  .envelope.ruined .env-letter{transform:translateY(-22px) rotate(7deg);opacity:.38;visibility:visible;transition:transform .5s ease .15s,opacity .3s .15s,visibility 0s;}
   .envelope.leaving{transform:translateX(-145%) rotate(-13deg);opacity:0;}
   .envelope.entering{animation:envEnter .55s ease both;}
   .cat-actor{position:absolute;right:12px;top:118px;z-index:5;font-size:3.4rem;opacity:0;transform:translateX(70px) rotate(12deg);transition:.35s;}
@@ -376,7 +389,6 @@
   .benefit b{font-family:var(--serif);font-size:1.15rem;font-weight:500;display:block;margin-bottom:6px;}
   .benefit p{font-size:.76rem;color:var(--stone);line-height:1.55;}
   .benefit .inline-link{color:var(--flame);font-weight:800;text-decoration:underline;text-underline-offset:3px;}
-  .safety-reminder{margin-top:12px;padding:12px 14px;border-left:4px solid var(--flame);border-radius:0 12px 12px 0;background:rgba(169,71,80,.07);font-size:.72rem;line-height:1.55;color:var(--ink);}
   @media(min-width:800px){.benefit-grid{grid-template-columns:repeat(4,1fr)}}
   .btrack,.ticket,.rs-card,.sp-card,.sheet,.drawer{border-radius:18px;}
   .sheet{overflow:hidden;}
@@ -391,13 +403,9 @@
   .gift-row{display:none!important;background:rgba(169,71,80,.08);border:1px dashed var(--flame);border-radius:9px;padding:8px;margin-top:4px;}
   .gift-row.show{display:flex!important;}
   .qbox{display:none!important;}
-  footer .footer-links{display:grid;grid-template-columns:repeat(2,minmax(130px,1fr));gap:9px;min-width:min(100%,310px);}
-  footer .footer-links a{min-height:46px;display:flex;align-items:center;justify-content:center;border:1px solid var(--hair);border-radius:12px;padding:9px 12px;text-align:center;text-decoration:none;background:rgba(255,253,249,.65);}
-  footer .footer-emails{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:5px 14px;margin-top:10px;font-size:.67rem;}
-  footer .footer-emails a{color:var(--stone);}
   .cart-toast{position:fixed;z-index:120;left:50%;bottom:88px;width:min(calc(100% - 32px),440px);transform:translate(-50%,24px);opacity:0;pointer-events:none;background:var(--ink);color:var(--paper);border-radius:14px;padding:13px 17px;text-align:center;font-size:.8rem;line-height:1.45;box-shadow:0 16px 42px rgba(36,29,28,.28);transition:.25s;}
   .cart-toast.show{transform:translate(-50%,0);opacity:1;}
-  @media(max-width:560px){.hero-points{gap:7px}.hero-points span{min-height:104px;padding:12px 9px}.hero-points b{font-size:.68rem}footer{align-items:stretch}footer .footer-links{min-width:0}footer .footer-emails{justify-content:flex-start}}
+  @media(max-width:560px){.hero-points{gap:7px}.hero-points span{min-height:104px;padding:12px 9px}.hero-points b{font-size:.68rem}}
   footer{max-width:1240px;}
 
 </style>
@@ -411,7 +419,7 @@
     <button class="hbtn" id="sToggle" aria-label="Cari produk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
     <button class="hbtn" id="bagBtn" aria-label="Buka keranjang belanja"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5h2.2l2 10.1a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 1.9-1.4L21 8H6"/><path d="M8 18.5h.01M18 18.5h.01"/><circle cx="8" cy="18.5" r="1.35"/><circle cx="18" cy="18.5" r="1.35"/></svg><span class="bagN" id="bagN">0</span></button>
   </div>
-  <div class="searchband" id="searchband"><input id="sInput" placeholder="Cari nama atau kode produk…" autocomplete="off"></div>
+  <div class="searchband" id="searchband"><div class="swrap"><input id="sInput" type="search" enterkeyhint="search" placeholder="Cari nama atau kode produk…" autocomplete="off"><button class="sclear" id="sClear" aria-label="Hapus pencarian">&times;</button></div></div>
 </header>
 <div class="ticks" aria-hidden="true"></div>
 <div class="notice" id="vnotice">
@@ -504,9 +512,8 @@
       <div class="benefit"><b>Produk Favoritmu</b><p>Cari warna, ukuran, atau kode variasi yang kamu mau</p></div>
       <div class="benefit"><b>Tas belanja pintar</b><p>Jumlah item, voucher, subtotal, dan pilihan variasi tetap tersimpan di perangkat.</p></div>
       <div class="benefit"><b>Pembayaran mudah</b><p>Bayar lewat QRIS atau Transfer, konfirmasi melalui WhatsApp.</p></div>
-      <div class="benefit"><b>Marketplace resmi</b><p>Stt! Kamu bisa bayar COD langsung <a class="inline-link" href="#storeBtn">disini</a>.</p></div>
+      <div class="benefit"><b>Marketplace resmi</b><p>Stt! Kamu bisa bayar COD langsung <a class="inline-link" href="#top">disini</a>.</p></div>
     </div>
-    <p class="safety-reminder"><b>Pengingat keamanan:</b> semua QRIS/Transfer hanya a.n. <b>ARI YANTO · BCA 4880191735</b>. Jangan transfer ke rekening lain.</p>
   </section>
 
   <section class="reseller" id="reseller">
@@ -523,9 +530,31 @@
   </section>
 </main>
 
-<footer>
-  <span>Chicc Style · Jakarta · 2026 · 65 styles</span>
-  <span><span class="footer-links"><a id="footWa" href="#">WhatsApp</a><a id="affiliateLink" href="mailto:info@chiccstyle.id?subject=Affiliate%20Program%20Chicc%20Style">Affiliate Program</a></span><span class="footer-emails"><a href="mailto:info@chiccstyle.id">info@chiccstyle.id</a><a href="mailto:halo@chiccstyle.id">halo@chiccstyle.id</a></span></span>
+<footer id="tentang">
+  <div class="ft-grid">
+    <div class="ft-col ft-brand">
+      <a class="brand" href="#top">Chicc<i>·</i>Style</a>
+      <p>Chicc Style adalah toko online <strong>atasan wanita Korean style</strong> dari Jakarta. Koleksi kami meliputi <strong>crop top</strong>, knit top, <strong>cardigan knit premium</strong>, lace top coquette, dan kaos <strong>rayon spandex</strong> yang fit body dan nyaman dipakai harian — harga mulai Rp 27.500. Pilih warna &amp; ukuran, bayar QRIS atau transfer BCA, lalu konfirmasi pesanan lewat WhatsApp.</p>
+      <p class="ft-pay">🔒 Demi keamanan, semua pembayaran hanya ke QRIS/Transfer a.n. <b>ARI YANTO</b> · BCA <b>4880191735</b>.</p>
+    </div>
+    <nav class="ft-col" aria-label="Belanja">
+      <b>Belanja</b>
+      <a href="#vouchers">Voucher &amp; Promo</a>
+      <a href="#surat-rahasia">Hadiah Spesial</a>
+      <a href="#reseller">Reseller &amp; Grosir</a>
+    </nav>
+    <nav class="ft-col" aria-label="Bantuan dan kontak">
+      <b>Bantuan</b>
+      <a id="footWa" href="#">Chat WhatsApp CS</a>
+      <a id="affiliateLink" href="mailto:info@chiccstyle.id?subject=Affiliate%20Program%20Chicc%20Style">Affiliate Program</a>
+      <a href="https://shopee.co.id/chiccstyle_" target="_blank" rel="noopener">Shopee — chiccstyle_</a>
+      <a href="https://tiktok.com/@chicc.style_" target="_blank" rel="noopener">TikTok Shop — @chicc.style_</a>
+      <a href="mailto:info@chiccstyle.id">info@chiccstyle.id</a>
+    </nav>
+  </div>
+  <div class="ft-bottom">
+    <span>© 2026 Chicc Style · Jakarta, Indonesia</span>
+  </div>
 </footer>
 
 <div class="bagbar" id="bagbar">
@@ -557,8 +586,8 @@
     <div class="size-block" id="sizeBlock" hidden><p class="sh-lab">Pilih ukuran — <b id="shSize">-</b></p><div class="pills" id="shSizes"></div></div>
   </div>
   <div class="sh-actions">
-    <button class="sh-add" id="shAdd" aria-label="Tambah ke keranjang"><svg viewBox="0 0 24 24" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5h2.2l2 10.1a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 1.9-1.4L21 8H6"/><circle cx="8" cy="18.5" r="1.35"/><circle cx="18" cy="18.5" r="1.35"/></svg>Tambah ke Keranjang</button>
     <a class="sh-order" id="shOrder" href="#" aria-label="Tanya produk ini lewat WhatsApp"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3z"/></svg><span class="wa-label">WhatsApp</span></a>
+    <button class="sh-add" id="shAdd" aria-label="Tambah ke keranjang"><svg viewBox="0 0 24 24" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 3.5h2.2l2 10.1a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 1.9-1.4L21 8H6"/><circle cx="8" cy="18.5" r="1.35"/><circle cx="18" cy="18.5" r="1.35"/></svg>Tambah ke Keranjang</button>
   </div>
 </div>
 
@@ -590,7 +619,7 @@
   </div>
   <div class="dr-foot">
     <a class="dr-wa" id="drWa" href="#"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.6c1.7.9 3.7 1.4 5.8 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3z"/></svg>Konfirmasi via WhatsApp</a>
-    <p class="fine">Demi keamanan, transfer hanya ke a.n. ARI YANTO · BCA 4880191735. Setelah transfer, kirim bukti ke WhatsApp.</p>
+    <p class="fine">Demi keamanan, transfer hanya ke a.n. ARI YANTO · BCA 4880191735.</p>
     <a class="ongkir-link" href="https://ongkoskirim.id" target="_blank" rel="noopener">Cek Ongkos Kirim — Kota Asal: Jakarta Barat</a>
   </div>
 </div>
@@ -689,10 +718,21 @@ document.querySelector(".subrow").addEventListener("click",e=>{const d=e.target.
   fclear.classList.toggle("show",!!curFam);renderGrid();});
 fclear.addEventListener("click",()=>{curFam="";document.querySelectorAll(".fdot").forEach(x=>x.setAttribute("aria-pressed","false"));fclear.classList.remove("show");renderGrid();});
 document.getElementById("sort").addEventListener("change",e=>{curSort=e.target.value;renderGrid();});
-const sband=document.getElementById("searchband"),sInput=document.getElementById("sInput");
-document.getElementById("sToggle").addEventListener("click",()=>{sband.classList.toggle("open");
-  if(sband.classList.contains("open"))sInput.focus();else{sInput.value="";query="";renderGrid();}});
-sInput.addEventListener("input",()=>{query=sInput.value.trim().toLowerCase();renderGrid();});
+const sband=document.getElementById("searchband"),sInput=document.getElementById("sInput"),sClear=document.getElementById("sClear");
+const headerEl=document.querySelector("header");
+const setHH=()=>document.documentElement.style.setProperty("--hh",headerEl.offsetHeight+"px");
+if(window.ResizeObserver)new ResizeObserver(setHH).observe(headerEl);
+window.addEventListener("resize",setHH);setHH();
+const syncClear=()=>sClear.classList.toggle("show",!!sInput.value);
+document.getElementById("sToggle").addEventListener("click",e=>{e.preventDefault();sband.classList.toggle("open");setHH();
+  if(sband.classList.contains("open")){sInput.focus({preventScroll:true});
+    requestAnimationFrame(()=>{const kat=document.getElementById("katalog"),anchor=document.getElementById("count");
+      const y=anchor.getBoundingClientRect().top+window.scrollY-headerEl.offsetHeight-kat.offsetHeight;
+      window.scrollTo({top:y,behavior:"smooth"});});}
+  else{sInput.value="";query="";syncClear();renderGrid();}});
+sInput.addEventListener("input",()=>{query=sInput.value.trim().toLowerCase();syncClear();renderGrid();});
+sInput.addEventListener("search",()=>{query=sInput.value.trim().toLowerCase();syncClear();renderGrid();});
+sClear.addEventListener("click",()=>{sInput.value="";query="";syncClear();renderGrid();sInput.focus({preventScroll:true});});
 
 function filtered(){let list=PRODUCTS.slice();
   if(curCat!=="all")list=list.filter(p=>CATS[curCat].includes(p.k));
@@ -906,6 +946,7 @@ document.addEventListener("click",e=>{const a=e.target.closest("a");if(!a)return
   else if(a.id==="footWa")track("contact_cs",{location:"footer"});
   else if(a.id==="rsWa")track("contact_cs",{location:"reseller"});},true);
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSheet();closeDrawer();closeStore();}});
+document.addEventListener("click",e=>{const a=e.target.closest('a[href="#top"]');if(!a)return;e.preventDefault();window.scrollTo({top:0,behavior:"smooth"});});
 renderGrid();
 </script>
 </body></html>
