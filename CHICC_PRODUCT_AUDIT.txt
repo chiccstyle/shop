@@ -1,0 +1,28 @@
+HASIL PEMERIKSAAN PRODUK DAN SKU CHICC STYLE
+============================================
+
+HASIL AKHIR
+- 65 produk dimasukkan ke website.
+- 488 nama foto warna dibuat tanpa nomor dan tanpa tanda hubung.
+- Celana dan Rok tidak dimasukkan.
+- Calista A030, VELA 7012, dan Diana A20 tidak dimasukkan karena tidak ada
+  pada screenshot produk 1–3 dan sudah dikonfirmasi pemilik.
+- Judul produk, SKU induk, warna, ukuran, dan SKU variasi mengikuti data yang
+  tersedia pada paket kerja sebelumnya.
+
+KEPUTUSAN SKU
+- Virly memakai SKU induk A38. Semua SKU variasinya juga diawali A38-.
+- Ayana memakai SKU induk jsa01 sesuai data.
+- Myuzy tetap memakai A32- termasuk tanda hubung di belakang.
+- Tujuh produk dengan variasi ukuran tetap memiliki pilihan S/M/L/XL sesuai data.
+
+VOUCHER DAN HADIAH
+- Voucher umum: CHICC10, CHICC25, CHICCSHIP.
+- Hadiah Spesial Chicc tidak lagi memberikan kode voucher.
+- Setelah permainan amplop berhasil, hadiah FREE KACA BULAT aktif otomatis
+  jika subtotal belanja mencapai Rp100.000 atau lebih.
+- Angka terjual per bulan yang tampil adalah estimasi gabungan Shopee dan TikTok.
+  Angka di bawah 100 tidak ditampilkan.
+
+PEMBAYARAN RESMI
+QRIS/Transfer a.n. ARI YANTO · BCA 4880191735.
